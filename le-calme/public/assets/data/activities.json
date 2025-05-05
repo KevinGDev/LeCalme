@@ -1,0 +1,310 @@
+{
+  "fr": [
+    {
+      "alt": "Lac de Carheil",
+      "title": "Lac de Carheil",
+      "description": "Un site naturel paisible idéal pour les promenades au bord de l'eau et les pique-niques. Vous pouvez aussi y pratiquer la pêche et observer la faune locale.",
+      "type": "nature",
+      "address": "Lac de Carheil, 44770 Plessé, France",
+      "link": "https://www.google.com/maps?q=Lac+de+Carheil,+44770+Pless%C3%A9,+France"
+    },
+    {
+      "alt": "Forêt du Gâvre",
+      "title": "Forêt du Gâvre",
+      "description": "La plus grande forêt de Bretagne, parfaite pour des balades à pied ou à vélo, offrant un cadre naturel apaisant et propice à la découverte de la faune et de la flore locales.",
+      "type": "nature",
+      "address": "Forêt du Gâvre, 44130 Gâvre, France",
+      "link": "https://www.google.com/maps?q=For%C3%AAt+du+G%C3%A2vre,+44130+G%C3%A2vre,+France"
+    },
+    {
+      "alt": "Jardin de la Moisonnais",
+      "title": "Jardin de la Moisonnais",
+      "description": "Un jardin privé ouvert au public, offrant une belle diversité de plantes, avec une atmosphère paisible et propice à la détente.",
+      "type": "nature",
+      "address": "Jardin de la Moisonnais, 44130 Nort-sur-Erdre, France",
+      "link": "https://www.google.com/maps?q=Jardin+de+la+Moisonnais,+44130+Nort-sur-Erdre,+France"
+    },
+    {
+      "alt": "Canal de Nantes à Brest",
+      "title": "Canal de Nantes à Brest",
+      "description": "Idéal pour une promenade à pied ou à vélo le long du canal castle, un lieu parfait pour découvrir la nature tout en se relaxant au bord de l'eau.",
+      "type": "nature",
+      "address": "Canal de Nantes à Brest, 44770 Plessé, France",
+      "link": "https://www.google.com/maps?q=Canal+de+Nantes+%C3%A0+Brest,+44770+Pless%C3%A9,+France"
+    },
+    {
+      "alt": "Alignements de Menhirs de Monteneuf",
+      "title": "Alignements de Menhirs de Monteneuf",
+      "description": "Les alignements de Monteneuf, situés dans la commune de Pluherlin, sont un site mégalithique impressionnant composé de plus de 100 menhirs. Un lieu incontournable pour les passionnés de préhistoire.",
+      "type": "castle",
+      "address": "Alignements de Menhirs de Monteneuf, 56420 Pluherlin, France",
+      "link": "https://www.google.com/maps?q=Alignements+de+Menhirs+de+Monteneuf,+56420+Pluherlin,+France"
+    },
+    {
+      "alt": "Ferme Saint Charles",
+      "title": "Ferme Saint Charles",
+      "description": "Ferme pédagogique située à Plessé, idéale pour une visite en famille. Vous pourrez découvrir la vie à la ferme et participer à des ateliers de fabrication de produits locaux comme le pain et le fromage.",
+      "type": "museum",
+      "address": "Ferme Saint Charles, 44770 Plessé, France",
+      "link": "https://www.google.com/maps?q=Ferme+Saint+Charles,+44770+Pless%C3%A9,+France"
+    },
+    {
+      "alt": "Randonnée",
+      "title": "Randonnée",
+      "description": "De nombreux sentiers traversent la région, dont la forêt du Gâvre, offrant des vues splendides et une immersion dans la nature. Les circuits sont adaptés pour les randonneurs de tous niveaux.",
+      "type": "nature",
+      "address": "Forêt du Gâvre, 44130 Gâvre, France",
+      "link": "https://www.google.com/maps?q=For%C3%AAt+du+G%C3%A2vre,+44130+G%C3%A2vre,+France"
+    },
+    {
+      "alt": "Cyclisme",
+      "title": "Cyclisme",
+      "description": "Des parcours adaptés aux cyclistes de tous niveaux, notamment le long du Canal de Nantes à Brest. Profitez des pistes cyclables bien aménagées pour découvrir la région à vélo.",
+      "type": "pedal_bike",
+      "address": "Canal de Nantes à Brest, 44770 Plessé, France",
+      "link": "https://www.google.com/maps?q=Canal+de+Nantes+%C3%A0+Brest,+44770+Pless%C3%A9,+France"
+    },
+    {
+      "alt": "Canoë",
+      "title": "Canoë",
+      "description": "Le Canal de Nantes à Brest offre l'opportunité de faire du canoë, une activité idéale pour découvrir la région d'un autre angle tout en profitant de la nature environnante.",
+      "type": "pedal_bike",
+      "address": "Canal de Nantes à Brest, 44770 Plessé, France",
+      "link": "https://www.google.com/maps?q=Canal+de+Nantes+%C3%A0+Brest,+44770+Pless%C3%A9,+France"
+    },
+    {
+      "alt": "Karting",
+      "title": "Karting",
+      "description": "Le circuit de karting à Blain propose une expérience de conduite excitante pour les amateurs de vitesse et de sensations fortes, avec des karts adaptés à tous les âges.",
+      "type": "pedal_bike",
+      "address": "Circuit de Karting, 44130 Blain, France",
+      "link": "https://www.google.com/maps?q=Circuit+de+Karting,+44130+Blain,+France"
+    },
+    {
+      "alt": "Accrobranche",
+      "title": "Accrobranche",
+      "description": "Situé à proximité, l'accrobranche offre une aventure en plein air, idéale pour les familles et les amateurs de sensations fortes. Parcours à travers les arbres, tyroliennes et défis",
+      "type": "pedal_bike",
+      "address": "Accrobranche de Blain, 44130 Blain, France",
+      "link": "https://www.google.com/maps?q=Accrobranche+de+Blain,+44130+Blain,+France"
+    },
+    {
+      "alt": "Équitation",
+      "title": "Équitation",
+      "description": "La région est idéale pour pratiquer l'équitation, avec de nombreux chemins équestres dans des paysages variés, parfaits pour une promenade à cheval ou pour des randonnées à cheval.",
+      "type": "museum",
+      "address": "Écurie de la Forêt, 44130 Blain, France",
+      "link": "https://www.google.com/maps?q=%C3%89curie+de+la+For%C3%AAt,+44130+Blain,+France"
+    },
+    {
+      "alt": "Marché de Blain",
+      "title": "Marché de Blain",
+      "description": "Le marché de Blain est un endroit parfait pour découvrir les produits locaux, frais et de qualité. C'est aussi une belle occasion de s'imprégner de l'ambiance locale.",
+      "type": "museum",
+      "address": "Place du Marché, 44130 Blain, France",
+      "link": "https://www.google.com/maps?q=Place+du+March%C3%A9,+44130+Blain,+France"
+    },
+    {
+      "alt": "Festival de Blain",
+      "title": "Festival de Blain",
+      "description": "Chaque année, le festival de Blain propose une programmation riche en concerts, spectacles et animations museumles. Un événement incontournable pour les amateurs de culture.",
+      "type": "museum",
+      "address": "Salle des Fêtes de Blain, 44130 Blain, France",
+      "link": "https://www.festivaldeblain.com"
+    },
+    {
+      "alt": "La Ferme des 1001 Cornes",
+      "title": "La Ferme des 1001 Cornes",
+      "description": "Cette ferme cidricole est un excellent moyen de découvrir les traditions locales, notamment la fabrication du cidre, avec des visites et des dégustations.",
+      "type": "museum",
+      "address": "La Ferme des 1001 Cornes, 44770 Plessé, France",
+      "link": "https://www.1001cornes.com"
+    },
+    {
+      "alt": "Château de la Herbretais",
+      "title": "Château de la Herbretais",
+      "description": "Ce château de style Renaissance, situé près de Blain, est un site castle à découvrir. Il est entouré d'un grand parc et est accessible pour les visiteurs intéressés par l'architecture et l'histoire de la région.",
+      "type": "castle",
+      "address": "Château de la Herbretais, 44130 Blain, France",
+      "link": "https://www.google.com/maps?q=Ch%C3%A2teau+de+la+Herbretais,+44130+Blain,+France"
+    },
+    {
+      "alt": "Chapelle de Fresnay",
+      "title": "Chapelle de Fresnay",
+      "description": "Cette chapelle est un bel exemple d'architecture du XVIᵉ siècle. Elle est décorée de peintures murales et de sculptures représentant des scènes religieuses.",
+      "type": "castle",
+      "address": "Chapelle de Fresnay, 44130 Blain, France",
+      "link": "https://www.google.com/maps?q=Chapelle+de+Fresnay,+44130+Blain,+France"
+    },
+    {
+      "alt": "La Garenne Lemot",
+      "title": "La Garenne Lemot",
+      "description": "Un parc paysager inspiré des jardins italinks, avec une villa néo-palladienne, des sculptures et des fabriques. Un lieu agréable pour une balade ou une découverte museumle.",
+      "type": "castle",
+      "address": "La Garenne Lemot, 44190 Clisson, France",
+      "link": "https://www.google.com/maps?q=La+Garenne+Lemot,+44190+Clisson,+France"
+    },
+    {
+      "alt": "Château de Clisson",
+      "title": "Château de Clisson",
+      "description": "Ce château médiéval, aux ruines imposantes, témoigne de l'histoire tumultueuse de la région. Il est situé sur une île de la Sèvre Nantaise et offre une vue magnifique sur les environs.",
+      "type": "castle",
+      "address": "Château de Clisson, 44190 Clisson, France",
+      "link": "https://www.google.com/maps?q=Ch%C3%A2teau+de+Clisson,+44190+Clisson,+France"
+    }
+  ],
+  "en": [
+    {
+      "alt": "Lake Carheil",
+      "title": "Lake Carheil",
+      "description": "A peaceful natural site ideal for waterfront walks and picnics. You can also enjoy fishing and observe local wildlife.",
+      "type": "nature",
+      "address": "Lake Carheil, 44770 Plessé, France",
+      "link": "https://www.google.com/maps?q=Lac+de+Carheil,+44770+Pless%C3%A9,+France"
+    },
+    {
+      "alt": "Forest of Gâvre",
+      "title": "Forest of Gâvre",
+      "description": "The largest forest in Brittany, perfect for walking or cycling, offering a peaceful natural setting and an opportunity to discover local flora and fauna.",
+      "type": "nature",
+      "address": "Forest of Gâvre, 44130 Gâvre, France",
+      "link": "https://www.google.com/maps?q=For%C3%AAt+du+G%C3%A2vre,+44130+G%C3%A2vre,+France"
+    },
+    {
+      "alt": "Moisonnais Garden",
+      "title": "Moisonnais Garden",
+      "description": "A private garden open to the public, offering a beautiful diversity of plants in a peaceful and relaxing atmosphere.",
+      "type": "nature",
+      "address": "Moisonnais Garden, 44130 Nort-sur-Erdre, France",
+      "link": "https://www.google.com/maps?q=Jardin+de+la+Moisonnais,+44130+Nort-sur-Erdre,+France"
+    },
+    {
+      "alt": "Nantes-Brest Canal",
+      "title": "Nantes-Brest Canal",
+      "description": "Ideal for walking or cycling along the canal, a perfect place to enjoy nature while relaxing by the water.",
+      "type": "nature",
+      "address": "Nantes-Brest Canal, 44770 Plessé, France",
+      "link": "https://www.google.com/maps?q=Canal+de+Nantes+%C3%A0+Brest,+44770+Pless%C3%A9,+France"
+    },
+    {
+      "alt": "Monteneuf Standing Stones",
+      "title": "Monteneuf Standing Stones",
+      "description": "The alignments of Monteneuf, located in the commune of Pluherlin, are an impressive megalithic site with over 100 menhirs. A must-visit for prehistory enthusiasts.",
+      "type": "castle",
+      "address": "Monteneuf Standing Stones, 56420 Pluherlin, France",
+      "link": "https://www.google.com/maps?q=Alignements+de+Menhirs+de+Monteneuf,+56420+Pluherlin,+France"
+    },
+    {
+      "alt": "Saint Charles Farm",
+      "title": "Saint Charles Farm",
+      "description": "An educational farm in Plessé, perfect for a family visit. Learn about farm life and join workshops on making local products like bread and cheese.",
+      "type": "museum",
+      "address": "Saint Charles Farm, 44770 Plessé, France",
+      "link": "https://www.google.com/maps?q=Ferme+Saint+Charles,+44770+Pless%C3%A9,+France"
+    },
+    {
+      "alt": "Hiking",
+      "title": "Hiking",
+      "description": "Numerous trails cross the region, including the Gâvre forest, offering beautiful views and full immersion in nature. Routes suit all levels.",
+      "type": "nature",
+      "address": "Forest of Gâvre, 44130 Gâvre, France",
+      "link": "https://www.google.com/maps?q=For%C3%AAt+du+G%C3%A2vre,+44130+G%C3%A2vre,+France"
+    },
+    {
+      "alt": "Cycling",
+      "title": "Cycling",
+      "description": "Routes suitable for cyclists of all levels, especially along the Nantes-Brest Canal. Enjoy well-maintained bike paths to explore the region.",
+      "type": "pedal_bike",
+      "address": "Nantes-Brest Canal, 44770 Plessé, France",
+      "link": "https://www.google.com/maps?q=Canal+de+Nantes+%C3%A0+Brest,+44770+Pless%C3%A9,+France"
+    },
+    {
+      "alt": "Canoeing",
+      "title": "Canoeing",
+      "description": "The Nantes-Brest Canal offers the opportunity to go canoeing, an ideal activity to explore the area from a different perspective while enjoying the surrounding nature.",
+      "type": "pedal_bike",
+      "address": "Nantes-Brest Canal, 44770 Plessé, France",
+      "link": "https://www.google.com/maps?q=Canal+de+Nantes+%C3%A0+Brest,+44770+Pless%C3%A9,+France"
+    },
+    {
+      "alt": "Karting",
+      "title": "Karting",
+      "description": "The karting track in Blain offers an exciting driving experience for speed and thrill enthusiasts, with karts for all ages.",
+      "type": "pedal_bike",
+      "address": "Karting Circuit, 44130 Blain, France",
+      "link": "https://www.google.com/maps?q=Circuit+de+Karting,+44130+Blain,+France"
+    },
+    {
+      "alt": "Tree climbing",
+      "title": "Tree Climbing",
+      "description": "Located nearby, the treetop adventure park offers an outdoor thrill, perfect for families and adrenaline lovers. Zip lines, tree courses, and more.",
+      "type": "pedal_bike",
+      "address": "Tree Climbing in Blain, 44130 Blain, France",
+      "link": "https://www.google.com/maps?q=Accrobranche+de+Blain,+44130+Blain,+France"
+    },
+    {
+      "alt": "Horse riding",
+      "title": "Horse Riding",
+      "description": "The region is perfect for horseback riding, with many equestrian trails through varied landscapes, ideal for rides or longer treks.",
+      "type": "museum",
+      "address": "Forest Stables, 44130 Blain, France",
+      "link": "https://www.google.com/maps?q=%C3%89curie+de+la+For%C3%AAt,+44130+Blain,+France"
+    },
+    {
+      "alt": "Blain Market",
+      "title": "Blain Market",
+      "description": "The Blain market is a great place to discover fresh, high-quality local products. It's also a lovely way to soak up the local atmosphere.",
+      "type": "museum",
+      "address": "Market Square, 44130 Blain, France",
+      "link": "https://www.google.com/maps?q=Place+du+March%C3%A9,+44130+Blain,+France"
+    },
+    {
+      "alt": "Blain Festival",
+      "title": "Blain Festival",
+      "description": "Each year, the Blain festival offers a rich program of concerts, shows, and cultural events. A must for culture lovers.",
+      "type": "museum",
+      "address": "Blain Festival Hall, 44130 Blain, France",
+      "link": "https://www.festivaldeblain.com"
+    },
+    {
+      "alt": "Farm of the 1001 Horns",
+      "title": "Farm of the 1001 Horns",
+      "description": "This cider farm is a great way to discover local traditions, especially cider making, with tours and tastings available.",
+      "type": "museum",
+      "address": "Farm of the 1001 Horns, 44770 Plessé, France",
+      "link": "https://www.1001cornes.com"
+    },
+    {
+      "alt": "Herbretais Castle",
+      "title": "Herbretais Castle",
+      "description": "This Renaissance-style castle, located near Blain, is a heritage site worth visiting. It is surrounded by a large park and open to those interested in architecture and regional history.",
+      "type": "castle",
+      "address": "Herbretais Castle, 44130 Blain, France",
+      "link": "https://www.google.com/maps?q=Ch%C3%A2teau+de+la+Herbretais,+44130+Blain,+France"
+    },
+    {
+      "alt": "Fresnay Chapel",
+      "title": "Fresnay Chapel",
+      "description": "This chapel is a fine example of 16th-century architecture. It features mural paintings and sculptures depicting religious scenes.",
+      "type": "castle",
+      "address": "Fresnay Chapel, 44130 Blain, France",
+      "link": "https://www.google.com/maps?q=Chapelle+de+Fresnay,+44130+Blain,+France"
+    },
+    {
+      "alt": "Garenne Lemot",
+      "title": "Garenne Lemot",
+      "description": "A landscaped park inspired by Italian gardens, with a neo-Palladian villa, sculptures, and garden follies. A pleasant place for a walk or cultural exploration.",
+      "type": "castle",
+      "address": "Garenne Lemot, 44190 Clisson, France",
+      "link": "https://www.google.com/maps?q=La+Garenne+Lemot,+44190+Clisson,+France"
+    },
+    {
+      "alt": "Clisson Castle",
+      "title": "Clisson Castle",
+      "description": "This medieval castle, with its imposing ruins, reflects the region's turbulent history. Located on an island in the Sèvre Nantaise, it offers stunning views of the surroundings.",
+      "type": "castle",
+      "address": "Clisson Castle, 44190 Clisson, France",
+      "link": "https://www.google.com/maps?q=Ch%C3%A2teau+de+Clisson,+44190+Clisson,+France"
+    }
+  ]
+}

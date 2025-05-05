@@ -1,0 +1,180 @@
+@import "../../styles/variables";
+
+.container {
+  padding: $spacing-large;
+}
+
+.lang-switcher {
+  display: flex;
+  justify-content: space-around;
+  max-width: 10vw;
+
+  .flag {
+    height: 30px;
+  }
+}
+
+header {
+  text-align: center;
+  margin-bottom: $spacing-large;
+
+  .logo {
+    width: 20vw;
+    height: auto;
+    margin-bottom: $spacing-medium;
+  }
+}
+
+section {
+  margin-bottom: $spacing-xl;
+}
+
+.activity {
+  background-color:  $color-bg;
+  padding: $spacing-medium;
+  border-radius: $border-radius-medium;
+  margin-bottom: $spacing-large;
+}
+
+.accordion-toggle {
+  all: unset; // Reset styles but keep button semantics
+  width: 100%;
+  cursor: pointer;
+  background-color: $color-accordion-bg;
+  padding: 0.75rem;
+  border-radius: $border-radius-small;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background-color 0.3s;
+  text-align: left;
+
+  &:hover {
+    background-color: $color-accordion-hover;
+  }
+
+  &:focus {
+    outline: 3px solid #555;
+    outline-offset: 2px;
+  }
+
+  h2 {
+    margin: 0;
+  }
+
+  .arrow {
+    display: inline-block;
+    transition: transform 0.3s ease;
+
+    &.open {
+      transform: rotate(180deg);
+    }
+  }
+}
+
+
+.accordion-content {
+  max-height: 0;
+  overflow: scroll;
+  transition: max-height 0.4s ease, opacity 0.4s ease;
+  opacity: 0;
+  padding-left: $spacing-small;
+
+  &.open {
+    max-height: 4000px;
+    opacity: 1;
+    margin-top: $spacing-medium;
+  }
+
+  .activity-info {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+  }
+
+  .activity-type {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5vh;
+
+    mat-icon {
+      margin-right: 5vw;
+    }
+  }
+}
+
+.carousel {
+  margin-top: 2vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: $spacing-medium;
+  height: 50vh;
+
+
+  img {
+    width: 60vw;
+    max-height: 40vh;
+    border-radius: 12px;
+    object-fit: cover;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    transition: opacity 0.5s ease-in-out;
+    opacity: 1;
+  }
+
+  .fade-out {
+    opacity: 0;
+  }
+
+  button {
+    background: none;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    color: $color-icon;
+
+    &:hover {
+      color: $color-icon-hover;
+    }
+  }
+}
+
+.booking-logo {
+  position: relative;
+  top: 15px;
+  width: 80px;
+  height: 60px;
+}
+
+.map {
+  text-align: center;
+
+  iframe {
+    height: 40vh;
+    width: 50vw;
+    border-radius: $border-radius-large;
+  }
+}
+.site-footer {
+  background-color: #f5f5f5;
+  padding: 1rem;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #555;
+  margin-top: 2rem;
+
+  .footer-content {
+    max-width: 900px;
+    margin: 0 auto;
+
+    a {
+      color: #555;
+      text-decoration: none;
+      margin: 0 0.5rem;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}

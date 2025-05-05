@@ -1,1 +1,78 @@
-/* You can add global styles to this file, and also import other style files */
+@import "styles/variables";
+
+body {
+  color: $color-text;
+  font-family: $font-family;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: $color-heading;
+  font-weight: 400;
+}
+h2{
+  font-size: 20px;
+}
+h3 {
+  font-size: 18px;
+}
+
+button {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  font-size: 1.5rem;
+  transition: outline 0.2s, box-shadow 0.2s;
+
+  &:hover {
+    color: $color-icon-hover;
+  }
+
+  &:focus-visible {
+    outline: 2px solid $color-icon-hover; // couleur douce ou contraste élevé
+    outline-offset: 2px;
+    box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.1); // halo discret
+    border-radius: 6px;
+  }
+}
+
+
+a {
+  color: $color-link;
+  text-decoration: none;
+
+  &:hover {
+    color: $color-link-hover;
+  }
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+/* Cible les scrollbars */
+::-webkit-scrollbar {
+  width: 4px;       /* Largeur verticale */
+  height: 4px;      /* Hauteur horizontale */
+}
+
+/* Supprime le fond */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Style du curseur (thumb) */
+::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.2); /* Couleur fine, discrète */
+  border-radius: 10px;
+}
+
+/* Optionnel : hover un peu plus visible */
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(0, 0, 0, 0.4);
+}
