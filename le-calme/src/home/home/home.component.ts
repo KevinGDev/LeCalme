@@ -29,8 +29,8 @@ export class HomeComponent {
   openedSections: Record<string, boolean> = {
     about: false,
     booking: false,
-    activities: true,
-    contact: false,
+    activities: false,
+    contact: true,
     location: false
   };
   currentYear: number = new Date().getFullYear();

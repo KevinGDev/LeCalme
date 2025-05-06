@@ -1,20 +1,19 @@
 <div class="container">
   <div class="lang-switcher">
-    <button
-      (click)="switchLanguage('fr')" class="flag" title="Français">
-      <img src="./assets/images/fr-flag.png" class="flag" alt="Drapeau français">
+    <button (click)="switchLanguage('fr')" class="flag" title="{{ 'Language.French' | translate }}">
+      <img src="./assets/images/fr-flag.png" class="flag" alt="{{ 'AltText.FrenchFlag' | translate }}">
     </button>
-    <button
-      (click)="switchLanguage('en')" class="flag" title="English">
-      <img src="./assets/images/uk-flag.png" class="flag" alt="UK flag">
+    <button (click)="switchLanguage('en')" class="flag" title="{{ 'Language.English' | translate }}">
+      <img src="./assets/images/uk-flag.png" class="flag" alt="{{ 'AltText.UKFlag' | translate }}">
     </button>
   </div>
 
   <header>
-    <img src="./assets/images/logo.png" alt="Le Calme logo" class="logo"/>
+    <img src="./assets/images/logo.png" alt="{{ 'AltText.Logo' | translate }}" class="logo"/>
     <h1>{{ 'LeCalme.Title' | translate }}</h1>
     <h2>{{ 'LeCalme.Subtitle' | translate }}</h2>
   </header>
+  <hr class="rounded">
 
   <section id="about">
     <h2>{{ 'Section.About.Title' | translate }}</h2>
@@ -23,16 +22,19 @@
         <p>{{ 'LeCalme.Presentation' | translate }}</p>
       </div>
       <div class="carousel">
-        <button class="change-image" (click)="prevImage()">‹</button>
+        <button class="change-image" (click)="prevImage()">
+          {{ 'Buttons.Previous' | translate }}
+        </button>
         <img
           [src]="currentImage"
-          alt="Présentation"
+          alt="{{ 'AltText.PresentationPic' | translate }}"
           [class.fade-out]="isFading"
         />
-        <button class="change-image" (click)="nextImage()">›</button>
+        <button class="change-image" (click)="nextImage()">
+          {{ 'Buttons.Next' | translate }}
+        </button>
       </div>
       <p>{{ 'LeCalme.Menu' | translate }}</p>
-
     </div>
   </section>
 
@@ -57,10 +59,12 @@
         {{ 'Section.Booking.Description' | translate }}
         <a
           href="https://www.booking.com/hotel/fr/le-calme-plesse.fr.html"
-          aria-label="Lien vers Booking.com"
+          [attr.aria-label]="'Aria.BookingLink' | translate"
           target="_blank"
-        >          <img class="booking-logo" src="./assets/images/booking.png" alt="Logo de réservation Booking">
+        >
+          <img class="booking-logo" src="./assets/images/booking.png" alt="{{ 'AltText.BookingLogo' | translate }}">
         </a>
+
       </p>
     </div>
   </section>
@@ -82,8 +86,17 @@
       [class.open]="openedSections['contact']"
       [attr.aria-hidden]="!openedSections['contact']"
     >
-      <p>{{ 'Section.Contact.Email' | translate }}</p>
-      <p>{{ 'Section.Contact.Phone' | translate }}</p>
+      <div class="contact-card-container">
+        <div class="contact-card">
+          <mat-icon>mail</mat-icon>
+          <a href="mailto:contact@lecalme.fr"><p>{{ 'Section.Contact.Email' | translate }}</p></a>
+        </div>
+        <div class="contact-card">
+          <mat-icon>phone</mat-icon>
+          <a href="tel:+33768170686"><p>{{ 'Section.Contact.Phone' | translate }}</p></a>
+        </div>
+      </div>
+
     </div>
   </section>
 
@@ -104,8 +117,19 @@
       [class.open]="openedSections['location']"
       [attr.aria-hidden]="!openedSections['location']"
     >
+
+      <div class="location-cities">
+        <ul>
+          <li>{{ 'Section.Location.Distance.Nantes' | translate }}</li>
+          <li>{{ 'Section.Location.Distance.Rennes' | translate }}</li>
+          <li>{{ 'Section.Location.Distance.SaintNazaire' | translate }}</li>
+          <li>{{ 'Section.Location.Distance.Vannes' | translate }}</li>
+        </ul>
+      </div>
+      <hr class="rounded">
+      <div class="address">{{ "Section.Location.Address" |translate }}</div>
       <iframe
-        title="Carte de localisation de l'hébergement Le Calme"
+        title="{{ 'AltText.MapTitle' | translate }}"
         src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2961.898782035469!2d-1.9315344668908065!3d47.51399391471273!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x480f794dac40ef5f%3A0x123ea5283bebc8d0!2sLe%20calme!5e0!3m2!1sfr!2sfr!4v1746445945504!5m2!1sfr!2sfr"
         style="border:0;"
         allowfullscreen=""
@@ -133,7 +157,6 @@
       [attr.aria-hidden]="!openedSections['activities']"
     >
       @for (category of ['nature', 'museum', 'castle', 'pedal_bike']; track category) {
-
         <h3 class="activity-type">
           <mat-icon>{{ category }}</mat-icon>
           {{ category | translate }}
@@ -144,25 +167,27 @@
               <div class="activity">
                 <h4>{{ activity.title }}</h4>
                 <div class="activity-info">{{ activity.description }}</div>
-                <a href="{{activity.link}}" target="_blank">{{ "SeeOnMap" | translate }} </a>
+                <a href="{{ activity.link }}" target="_blank">
+                  {{ 'SeeOnMap' | translate }}
+                </a>
               </div>
             }
           }
-        </div>        <hr class="rounded">
-
+        </div>
+        <hr class="rounded">
       }
     </div>
   </section>
 </div>
+
 <footer class="site-footer">
   <div class="footer-content">
-    <p>&copy; {{ currentYear }} Le Calme. Tous droits réservés.</p>
-
+    <p>&copy; {{ currentYear }} Le Calme. {{ 'Footer.Copyright' | translate }}</p>
     <nav>
-      <a href="#" aria-label="Retour en haut de page">Haut de page</a>
-      <a href="https://www.linkedin.com/in/kevingalerne?originalSubdomain=fr"
-         target="_blank">Contacter le développeur</a>
+      <a href="#" [attr.aria-label]="'Footer.BackToTop' | translate ">{{ 'Footer.BackToTop' | translate }}</a>
+      <a href="https://www.linkedin.com/in/kevingalerne?originalSubdomain=fr" target="_blank">
+        {{ 'Footer.ContactDev' | translate }}
+      </a>
     </nav>
   </div>
 </footer>
-
