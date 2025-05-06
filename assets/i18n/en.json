@@ -1,0 +1,49 @@
+{
+  "LeCalme": {
+    "Title": "Le Calme",
+    "Subtitle": "Guesthouse in Plessé",
+    "Presentation": "Nestled in the heart of the Carheil estate in Plessé, Le Calme is a guesthouse designed for lovers of nature, serenity, and authenticity. Surrounded by lakes, forests, and country paths, it offers a peaceful haven perfect for relaxation or exploration. Just an hour from Nantes or the Atlantic coast, our home is the ideal starting point to discover the region: hiking, cycling, local markets, or canoeing on the Nantes-Brest canal... Everything here invites you to slow down and breathe.",
+    "Menu": "Here, we take care of you—even at the table! If you'd like to enjoy a meal on site, that's absolutely possible. Whether you're in the mood for a simple dinner or something more indulgent, we’ll plan the menu together around your preferences. Just let us know in advance, and we’ll take care of everything so you can simply savor the moment."
+  },
+  "NearbyActivities": {
+    "Title": "Nearby Activities"
+  },
+  "Section": {
+    "About": {
+      "Title": "About"
+    },
+    "Activities": {
+      "Title": "Things to Do Nearby"
+    },
+    "Booking": {
+      "Title": "Booking",
+      "Description": "You can contact us directly by phone to book, or use our trusted partner"
+    },
+    "Contact": {
+      "Title": "Contact",
+      "Email": "Email: contact@lecalme.fr",
+      "Phone": "Phone: +33 6 00 00 00 00"
+    },
+    "Location": {
+      "Title": "Find Us"
+    }
+  },
+  "Activities": {
+    "NatureWalks": {
+      "Title": "Walks Around the Estate",
+      "Description": "Explore the peaceful trails around the Carheil estate."
+    },
+    "LakeRecreation": {
+      "Title": "Buhel Leisure Park",
+      "Description": "Canoeing, tree climbing, paddleboarding... just 10 minutes away."
+    },
+    "LocalCulture": {
+      "Title": "Culture and Heritage",
+      "Description": "Discover Plessé, its artisans, and nearby castles."
+    }
+  },
+  "nature": "Nature",
+  "museum": "Cultural",
+  "castle": "Historical",
+  "pedal_bike": "Sport"
+}
