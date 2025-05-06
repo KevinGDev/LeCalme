@@ -1,4 +1,28 @@
 {
+  "Language": {
+    "French": "Français",
+    "English": "Anglais"
+  },
+  "AltText": {
+    "FrenchFlag": "Drapeau français",
+    "UKFlag": "Drapeau britannique",
+    "Logo": "Logo Le Calme",
+    "BookingLogo": "Logo de réservation Booking",
+    "PresentationPic": "Présentation",
+    "MapTitle": "Carte de localisation de l'hébergement Le Calme"
+  },
+  "Buttons": {
+    "Previous": "‹",
+    "Next": "›"
+  },
+  "Footer": {
+    "Copyright": "Tous droits réservés.",
+    "BackToTop": "Haut de page",
+    "ContactDev": "Contacter le développeur"
+  },
+  "Aria": {
+    "BookingLink": "Lien vers Booking.com"
+  },
   "LeCalme": {
     "Title": "Le Calme",
     "Subtitle": "Chambre d’hôtes à Plessé",
@@ -17,14 +41,21 @@
     },
     "Booking": {
       "Title": "Réservation",
-      "Description": "Vous pouvez nous contacter par téléphone afin de réserver en direct ou passer par notre partenaire"
+      "Description": "Vous pouvez nous contacter par téléphone afin de réserver en direct au tarif de 80€ ou passer par notre partenaire"
     },
     "Contact": {
       "Title": "Contact",
-      "Email": "Email : contact@lecalme.fr",
-      "Phone": "Téléphone : +33 6 00 00 00 00"
+      "Email": "contact@lecalme.fr",
+      "Phone": "+33 7 68 17 06 86"
     },
     "Location": {
+      "Address": "Pour venir chez nous : 1 Av. de la Vall. Dom. Carheil, 44630 Plessé",
+      "Distance": {
+        "Nantes": "Nantes : environ 45 km au sud-ouest de Plessé, soit environ 40 minutes en voiture.",
+        "Rennes": "Rennes : environ 120 km au nord-ouest de Plessé, soit environ 1h30 en voiture.",
+        "SaintNazaire": "Saint-Nazaire : environ 55 km à l'ouest de Plessé, soit environ 45 minutes en voiture.",
+        "Vannes": "Vannes : environ 115 km au nord de Plessé, soit environ 1h30 en voiture."
+      },
       "Title": "Nous trouver"
     }
   },

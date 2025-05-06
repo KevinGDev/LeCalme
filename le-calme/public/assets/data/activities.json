@@ -1,14 +1,6 @@
 {
   "fr": [
     {
-      "alt": "Lac de Carheil",
-      "title": "Lac de Carheil",
-      "description": "Un site naturel paisible idéal pour les promenades au bord de l'eau et les pique-niques. Vous pouvez aussi y pratiquer la pêche et observer la faune locale.",
-      "type": "nature",
-      "address": "Lac de Carheil, 44770 Plessé, France",
-      "link": "https://www.google.com/maps?q=Lac+de+Carheil,+44770+Pless%C3%A9,+France"
-    },
-    {
       "alt": "Forêt du Gâvre",
       "title": "Forêt du Gâvre",
       "description": "La plus grande forêt de Bretagne, parfaite pour des balades à pied ou à vélo, offrant un cadre naturel apaisant et propice à la découverte de la faune et de la flore locales.",
@@ -43,7 +35,7 @@
     {
       "alt": "Ferme Saint Charles",
       "title": "Ferme Saint Charles",
-      "description": "Ferme pédagogique située à Plessé, idéale pour une visite en famille. Vous pourrez découvrir la vie à la ferme et participer à des ateliers de fabrication de produits locaux comme le pain et le fromage.",
+      "description": "Ferme située à Plessé, médaillée plusieurs fois pour son cidre et sa bière",
       "type": "museum",
       "address": "Ferme Saint Charles, 44770 Plessé, France",
       "link": "https://www.google.com/maps?q=Ferme+Saint+Charles,+44770+Pless%C3%A9,+France"
@@ -105,22 +97,6 @@
       "link": "https://www.google.com/maps?q=Place+du+March%C3%A9,+44130+Blain,+France"
     },
     {
-      "alt": "Festival de Blain",
-      "title": "Festival de Blain",
-      "description": "Chaque année, le festival de Blain propose une programmation riche en concerts, spectacles et animations museumles. Un événement incontournable pour les amateurs de culture.",
-      "type": "museum",
-      "address": "Salle des Fêtes de Blain, 44130 Blain, France",
-      "link": "https://www.festivaldeblain.com"
-    },
-    {
-      "alt": "La Ferme des 1001 Cornes",
-      "title": "La Ferme des 1001 Cornes",
-      "description": "Cette ferme cidricole est un excellent moyen de découvrir les traditions locales, notamment la fabrication du cidre, avec des visites et des dégustations.",
-      "type": "museum",
-      "address": "La Ferme des 1001 Cornes, 44770 Plessé, France",
-      "link": "https://www.1001cornes.com"
-    },
-    {
       "alt": "Château de la Herbretais",
       "title": "Château de la Herbretais",
       "description": "Ce château de style Renaissance, situé près de Blain, est un site castle à découvrir. Il est entouré d'un grand parc et est accessible pour les visiteurs intéressés par l'architecture et l'histoire de la région.",
@@ -154,14 +130,6 @@
     }
   ],
   "en": [
-    {
-      "alt": "Lake Carheil",
-      "title": "Lake Carheil",
-      "description": "A peaceful natural site ideal for waterfront walks and picnics. You can also enjoy fishing and observe local wildlife.",
-      "type": "nature",
-      "address": "Lake Carheil, 44770 Plessé, France",
-      "link": "https://www.google.com/maps?q=Lac+de+Carheil,+44770+Pless%C3%A9,+France"
-    },
     {
       "alt": "Forest of Gâvre",
       "title": "Forest of Gâvre",
@@ -197,7 +165,7 @@
     {
       "alt": "Saint Charles Farm",
       "title": "Saint Charles Farm",
-      "description": "An educational farm in Plessé, perfect for a family visit. Learn about farm life and join workshops on making local products like bread and cheese.",
+      "description": "A farm located in Plessé, medal-winning multiple times for their cider and beers",
       "type": "museum",
       "address": "Saint Charles Farm, 44770 Plessé, France",
       "link": "https://www.google.com/maps?q=Ferme+Saint+Charles,+44770+Pless%C3%A9,+France"
@@ -257,22 +225,6 @@
       "type": "museum",
       "address": "Market Square, 44130 Blain, France",
       "link": "https://www.google.com/maps?q=Place+du+March%C3%A9,+44130+Blain,+France"
-    },
-    {
-      "alt": "Blain Festival",
-      "title": "Blain Festival",
-      "description": "Each year, the Blain festival offers a rich program of concerts, shows, and cultural events. A must for culture lovers.",
-      "type": "museum",
-      "address": "Blain Festival Hall, 44130 Blain, France",
-      "link": "https://www.festivaldeblain.com"
-    },
-    {
-      "alt": "Farm of the 1001 Horns",
-      "title": "Farm of the 1001 Horns",
-      "description": "This cider farm is a great way to discover local traditions, especially cider making, with tours and tastings available.",
-      "type": "museum",
-      "address": "Farm of the 1001 Horns, 44770 Plessé, France",
-      "link": "https://www.1001cornes.com"
     },
     {
       "alt": "Herbretais Castle",

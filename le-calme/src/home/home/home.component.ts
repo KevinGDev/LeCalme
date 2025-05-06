@@ -27,10 +27,9 @@ interface Activity {
 export class HomeComponent {
   /** Sections ouvertes ou fermées sur la page */
   openedSections: Record<string, boolean> = {
-    about: false,
     booking: false,
     activities: false,
-    contact: true,
+    contact: false,
     location: false
   };
   currentYear: number = new Date().getFullYear();
@@ -47,7 +46,18 @@ export class HomeComponent {
     'assets/images/lecalme1.jpg',
     'assets/images/lecalme2.jpg',
     'assets/images/lecalme3.jpg',
-    'assets/images/lecalme4.jpg'
+    'assets/images/lecalme4.jpg',
+    'assets/images/lecalme5.jpg',
+    'assets/images/lecalme6.jpg',
+    'assets/images/lecalme7.jpg',
+    'assets/images/lecalme8.jpg',
+    'assets/images/lecalme9.jpg',
+    'assets/images/lecalme10.jpg',
+    'assets/images/lecalme11.jpg',
+    'assets/images/lecalme11.jpg',
+    'assets/images/lecalme12.jpg',
+    'assets/images/lecalme13.jpg',
+    'assets/images/lecalme14.jpg'
   ];
 
   /** Index de l'image actuellement affichée */
