@@ -54,7 +54,6 @@ export class HomeComponent {
     'assets/images/lecalme9.jpg',
     'assets/images/lecalme10.jpg',
     'assets/images/lecalme11.jpg',
-    'assets/images/lecalme11.jpg',
     'assets/images/lecalme12.jpg',
     'assets/images/lecalme13.jpg',
     'assets/images/lecalme14.jpg'
