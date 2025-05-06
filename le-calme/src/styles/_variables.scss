@@ -1,16 +1,17 @@
 // Variables
 $font-family: 'Quicksand', sans-serif;
 
-$color-bg: #f5f5f0;
-$color-text: #4a4a4a;
-$color-heading: #333;
-$color-link: #5c5c5c;
-$color-link-hover: #2c2c2c;
-$color-accent: #f5f2ec;
-$color-accordion-bg: #e8e5dd;
-$color-accordion-hover: #d6d3c9;
-$color-icon: #888;
-$color-icon-hover: #333;
+$color-bg: #fafaf7;                // Fond très clair
+$color-text: #6a6a6a;              // Gris doux pour le texte
+$color-heading: #4a4a4a;           // Gris un peu plus soutenu pour les titres
+$color-link: #8a8a8a;              // Gris clair pour les liens
+$color-link-hover: #5a5a5a;        // Hover lien un peu plus foncé
+$color-accent: #ede5f9;            // Lavande pastel pour les accents
+$color-accordion-bg: #e7e2f3;      // Fond accordéon lavande clair
+$color-accordion-hover: #d9d2e8;   // Hover accordéon lavande un peu plus foncé
+$color-icon: #aaa;                 // Icônes gris clair
+$color-icon-hover: #666;           // Icônes en survol, gris moyen
+
 
 $border-radius-small: 0.5rem;
 $border-radius-medium: 0.75rem;
@@ -20,3 +21,5 @@ $spacing-small: 0.5rem;
 $spacing-medium: 1rem;
 $spacing-large: 2rem;
 $spacing-xl: 3rem;
+
+$font-size-large : 1.5rem;

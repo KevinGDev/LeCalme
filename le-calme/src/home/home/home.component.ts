@@ -29,7 +29,7 @@ export class HomeComponent {
   openedSections: Record<string, boolean> = {
     about: false,
     booking: false,
-    activities: false,
+    activities: true,
     contact: false,
     location: false
   };

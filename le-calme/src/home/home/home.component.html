@@ -2,16 +2,16 @@
   <div class="lang-switcher">
     <button
       (click)="switchLanguage('fr')" class="flag" title="Français">
-      <img src="/assets/images/fr-flag.png" class="flag" alt="Drapeau français">
+      <img src="./assets/images/fr-flag.png" class="flag" alt="Drapeau français">
     </button>
     <button
       (click)="switchLanguage('en')" class="flag" title="English">
-      <img src="/assets/images/uk-flag.png" class="flag" alt="UK flag">
+      <img src="./assets/images/uk-flag.png" class="flag" alt="UK flag">
     </button>
   </div>
 
   <header>
-    <img src="/assets/images/logo.png" alt="Le Calme logo" class="logo"/>
+    <img src="./assets/images/logo.png" alt="Le Calme logo" class="logo"/>
     <h1>{{ 'LeCalme.Title' | translate }}</h1>
     <h2>{{ 'LeCalme.Subtitle' | translate }}</h2>
   </header>
@@ -58,45 +58,10 @@
         <a
           href="https://www.booking.com/hotel/fr/le-calme-plesse.fr.html"
           aria-label="Lien vers Booking.com"
-        >
-          <img class="booking-logo" src="/assets/images/booking.png" alt="Logo de réservation Booking">
+          target="_blank"
+        >          <img class="booking-logo" src="./assets/images/booking.png" alt="Logo de réservation Booking">
         </a>
       </p>
-    </div>
-  </section>
-
-  <section id="activities">
-    <button
-      class="accordion-toggle"
-      (click)="toggleSection('activities')"
-      (keydown)="handleKeydown($event, 'activities')"
-      [attr.aria-expanded]="openedSections['activities']"
-      [attr.aria-controls]="'content-data'"
-    >
-      <h2>{{ 'NearbyActivities.Title' | translate }}</h2>
-      <span class="arrow" [class.open]="openedSections['activities']">▼</span>
-    </button>
-    <div
-      id="content-activities"
-      class="accordion-content"
-      [class.open]="openedSections['activities']"
-      [attr.aria-hidden]="!openedSections['activities']"
-    >
-      @for (category of ['nature', 'museum', 'castle', 'pedal_bike']; track category) {
-        <h3 class="activity-type">
-          <mat-icon>{{ category }}</mat-icon>
-          {{ category | translate }}
-        </h3>
-        @for (activity of activities; track activity) {
-          @if (activity.type === category) {
-            <div class="activity">
-              <h4>{{ activity.title }}</h4>
-              <div class="activity-info">{{ activity.description }}</div>
-              <a href="{{activity.link}}" target="_blank">{{ "SeeOnMap" | translate }} </a>
-            </div>
-          }
-        }
-      }
     </div>
   </section>
 
@@ -147,6 +112,45 @@
         loading="lazy"
         referrerpolicy="no-referrer-when-downgrade"
       ></iframe>
+    </div>
+  </section>
+
+  <section id="activities">
+    <button
+      class="accordion-toggle"
+      (click)="toggleSection('activities')"
+      (keydown)="handleKeydown($event, 'activities')"
+      [attr.aria-expanded]="openedSections['activities']"
+      [attr.aria-controls]="'content-data'"
+    >
+      <h2>{{ 'NearbyActivities.Title' | translate }}</h2>
+      <span class="arrow" [class.open]="openedSections['activities']">▼</span>
+    </button>
+    <div
+      id="content-activities"
+      class="accordion-content"
+      [class.open]="openedSections['activities']"
+      [attr.aria-hidden]="!openedSections['activities']"
+    >
+      @for (category of ['nature', 'museum', 'castle', 'pedal_bike']; track category) {
+
+        <h3 class="activity-type">
+          <mat-icon>{{ category }}</mat-icon>
+          {{ category | translate }}
+        </h3>
+        <div class="activity-cards-container">
+          @for (activity of activities; track activity) {
+            @if (activity.type === category) {
+              <div class="activity">
+                <h4>{{ activity.title }}</h4>
+                <div class="activity-info">{{ activity.description }}</div>
+                <a href="{{activity.link}}" target="_blank">{{ "SeeOnMap" | translate }} </a>
+              </div>
+            }
+          }
+        </div>        <hr class="rounded">
+
+      }
     </div>
   </section>
 </div>
