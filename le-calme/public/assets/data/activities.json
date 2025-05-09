@@ -258,5 +258,135 @@
       "address": "Clisson Castle, 44190 Clisson, France",
       "link": "https://www.google.com/maps?q=Ch%C3%A2teau+de+Clisson,+44190+Clisson,+France"
     }
+  ],
+  "ger": [
+    {
+      "alt": "Wald von Gâvre",
+      "title": "Wald von Gâvre",
+      "description": "Der größte Wald der Bretagne, ideal zum Wandern oder Radfahren, mit einer ruhigen natürlichen Umgebung und vielen Möglichkeiten, die lokale Flora und Fauna zu entdecken.",
+      "type": "nature",
+      "address": "Forêt du Gâvre, 44130 Gâvre, Frankreich",
+      "link": "https://www.google.com/maps?q=For%C3%AAt+du+G%C3%A2vre,+44130+G%C3%A2vre,+France"
+    },
+    {
+      "alt": "Garten von Moisonnais",
+      "title": "Garten von Moisonnais",
+      "description": "Ein privater Garten, der der Öffentlichkeit zugänglich ist, mit einer schönen Pflanzenvielfalt und einer entspannenden Atmosphäre.",
+      "type": "nature",
+      "address": "Jardin de la Moisonnais, 44130 Nort-sur-Erdre, Frankreich",
+      "link": "https://www.google.com/maps?q=Jardin+de+la+Moisonnais,+44130+Nort-sur-Erdre,+France"
+    },
+    {
+      "alt": "Kanal Nantes-Brest",
+      "title": "Kanal Nantes-Brest",
+      "description": "Ideal für Spaziergänge oder Radtouren entlang des Kanals – perfekt, um die Natur zu genießen und am Wasser zu entspannen.",
+      "type": "nature",
+      "address": "Canal de Nantes à Brest, 44770 Plessé, Frankreich",
+      "link": "https://www.google.com/maps?q=Canal+de+Nantes+%C3%A0+Brest,+44770+Pless%C3%A9,+France"
+    },
+    {
+      "alt": "Steinreihen von Monteneuf",
+      "title": "Steinreihen von Monteneuf",
+      "description": "Die Megalithanlage von Monteneuf mit über 100 Menhiren ist ein beeindruckender Ort für Liebhaber der Vorgeschichte.",
+      "type": "castle",
+      "address": "Alignements de Menhirs de Monteneuf, 56420 Pluherlin, Frankreich",
+      "link": "https://www.google.com/maps?q=Alignements+de+Menhirs+de+Monteneuf,+56420+Pluherlin,+France"
+    },
+    {
+      "alt": "Hof Saint Charles",
+      "title": "Hof Saint Charles",
+      "description": "Ein Bauernhof in Plessé, mehrfach ausgezeichnet für seinen Cidre und sein Bier.",
+      "type": "museum",
+      "address": "Ferme Saint Charles, 44770 Plessé, Frankreich",
+      "link": "https://www.google.com/maps?q=Ferme+Saint+Charles,+44770+Pless%C3%A9,+France"
+    },
+    {
+      "alt": "Wandern",
+      "title": "Wandern",
+      "description": "Zahlreiche Wanderwege, z. B. im Wald von Gâvre, bieten herrliche Aussichten und ein Naturerlebnis für jedes Niveau.",
+      "type": "nature",
+      "address": "Forêt du Gâvre, 44130 Gâvre, Frankreich",
+      "link": "https://www.google.com/maps?q=For%C3%AAt+du+G%C3%A2vre,+44130+G%C3%A2vre,+France"
+    },
+    {
+      "alt": "Radfahren",
+      "title": "Radfahren",
+      "description": "Strecken für alle Radfahrniveaus, insbesondere entlang des Kanals. Ideal, um die Region mit dem Fahrrad zu erkunden.",
+      "type": "pedal_bike",
+      "address": "Canal de Nantes à Brest, 44770 Plessé, Frankreich",
+      "link": "https://www.google.com/maps?q=Canal+de+Nantes+%C3%A0+Brest,+44770+Pless%C3%A9,+France"
+    },
+    {
+      "alt": "Kanu",
+      "title": "Kanu",
+      "description": "Der Kanal bietet die Möglichkeit zum Kanufahren – ideal, um die Umgebung aus einer anderen Perspektive zu entdecken.",
+      "type": "pedal_bike",
+      "address": "Canal de Nantes à Brest, 44770 Plessé, Frankreich",
+      "link": "https://www.google.com/maps?q=Canal+de+Nantes+%C3%A0+Brest,+44770+Pless%C3%A9,+France"
+    },
+    {
+      "alt": "Kartfahren",
+      "title": "Kartfahren",
+      "description": "Die Kartbahn in Blain bietet Fahrspaß für alle Altersgruppen und begeistert alle, die Geschwindigkeit lieben.",
+      "type": "pedal_bike",
+      "address": "Circuit de Karting, 44130 Blain, Frankreich",
+      "link": "https://www.google.com/maps?q=Circuit+de+Karting,+44130+Blain,+France"
+    },
+    {
+      "alt": "Klettern im Hochseilgarten",
+      "title": "Hochseilgarten",
+      "description": "In der Nähe gelegen, bietet der Hochseilgarten Abenteuer und Spaß für Familien und Mutige – mit Seilrutschen und Kletterparcours.",
+      "type": "pedal_bike",
+      "address": "Accrobranche de Blain, 44130 Blain, Frankreich",
+      "link": "https://www.google.com/maps?q=Accrobranche+de+Blain,+44130+Blain,+France"
+    },
+    {
+      "alt": "Reiten",
+      "title": "Reiten",
+      "description": "Die Region eignet sich hervorragend zum Reiten, mit vielen Reitwegen durch abwechslungsreiche Landschaften.",
+      "type": "museum",
+      "address": "Écurie de la Forêt, 44130 Blain, Frankreich",
+      "link": "https://www.google.com/maps?q=%C3%89curie+de+la+For%C3%AAt,+44130+Blain,+France"
+    },
+    {
+      "alt": "Markt in Blain",
+      "title": "Markt in Blain",
+      "description": "Der Markt von Blain ist ideal, um lokale, frische Produkte kennenzulernen und die regionale Atmosphäre zu genießen.",
+      "type": "museum",
+      "address": "Place du Marché, 44130 Blain, Frankreich",
+      "link": "https://www.google.com/maps?q=Place+du+March%C3%A9,+44130+Blain,+France"
+    },
+    {
+      "alt": "Schloss Herbretais",
+      "title": "Schloss Herbretais",
+      "description": "Ein Renaissance-Schloss nahe Blain mit großem Park – für Geschichts- und Architekturliebhaber ein lohnenswerter Besuch.",
+      "type": "castle",
+      "address": "Château de la Herbretais, 44130 Blain, Frankreich",
+      "link": "https://www.google.com/maps?q=Ch%C3%A2teau+de+la+Herbretais,+44130+Blain,+France"
+    },
+    {
+      "alt": "Kapelle von Fresnay",
+      "title": "Kapelle von Fresnay",
+      "description": "Ein schönes Beispiel für sakrale Architektur aus dem 16. Jahrhundert mit Wandmalereien und religiösen Skulpturen.",
+      "type": "castle",
+      "address": "Chapelle de Fresnay, 44130 Blain, Frankreich",
+      "link": "https://www.google.com/maps?q=Chapelle+de+Fresnay,+44130+Blain,+France"
+    },
+    {
+      "alt": "Garenne Lemot",
+      "title": "Garenne Lemot",
+      "description": "Ein Park im Stil italienischer Gärten mit Villa, Skulpturen und architektonischen Elementen – ideal zum Flanieren und Entdecken.",
+      "type": "castle",
+      "address": "La Garenne Lemot, 44190 Clisson, Frankreich",
+      "link": "https://www.google.com/maps?q=La+Garenne+Lemot,+44190+Clisson,+France"
+    },
+    {
+      "alt": "Schloss Clisson",
+      "title": "Schloss Clisson",
+      "description": "Diese mittelalterliche Schlossruine auf einer Insel der Sèvre Nantaise erzählt die bewegte Geschichte der Region.",
+      "type": "castle",
+      "address": "Château de Clisson, 44190 Clisson, Frankreich",
+      "link": "https://www.google.com/maps?q=Ch%C3%A2teau+de+Clisson,+44190+Clisson,+France"
+    }
   ]
 }

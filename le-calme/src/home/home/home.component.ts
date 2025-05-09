@@ -28,6 +28,7 @@ export class HomeComponent {
   /** Sections ouvertes ou fermées sur la page */
   openedSections: Record<string, boolean> = {
     booking: false,
+    modalities: true,
     activities: false,
     contact: false,
     location: false
@@ -43,6 +44,14 @@ export class HomeComponent {
 
   /** Images du carrousel */
   carouselImages: string[] = [
+    'assets/images/lecalme15.jpg',
+    'assets/images/lecalme16.jpg',
+    'assets/images/lecalme17.jpg',
+    'assets/images/lecalme18.jpg',
+    'assets/images/lecalme19.jpg',
+    'assets/images/lecalme20.jpg',
+    'assets/images/lecalme21.jpg',
+    'assets/images/lecalme22.jpg',
     'assets/images/lecalme1.jpg',
     'assets/images/lecalme2.jpg',
     'assets/images/lecalme3.jpg',
@@ -56,7 +65,7 @@ export class HomeComponent {
     'assets/images/lecalme11.jpg',
     'assets/images/lecalme12.jpg',
     'assets/images/lecalme13.jpg',
-    'assets/images/lecalme14.jpg'
+    'assets/images/lecalme14.jpg',
   ];
 
   /** Index de l'image actuellement affichée */

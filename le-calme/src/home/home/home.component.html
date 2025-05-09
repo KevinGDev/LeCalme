@@ -6,6 +6,9 @@
     <button (click)="switchLanguage('en')" class="flag" title="{{ 'Language.English' | translate }}">
       <img src="./assets/images/uk-flag.png" class="flag" alt="{{ 'AltText.UKFlag' | translate }}">
     </button>
+    <button (click)="switchLanguage('ger')" class="flag" title="{{ 'Language.German' | translate }}">
+      <img src="./assets/images/ger-flag.png" class="flag" alt="{{ 'AltText.GerFlag' | translate }}">
+    </button>
   </div>
 
   <header>
@@ -64,8 +67,67 @@
         >
           <img class="booking-logo" src="./assets/images/booking.png" alt="{{ 'AltText.BookingLogo' | translate }}">
         </a>
+      <hr class="rounded">
+      <div class="menu">
+        <h3>{{ 'Section.Booking.MenuTitle'| translate }}</h3>
+        <div class="card-container">
+          <div class="card">
+            <img class="card-arabesque" src="./assets/images/arabesque.png" alt="A decorating arabesque">
+            <p>{{ 'Section.Booking.Starter' | translate }}</p>
+            <p>{{ 'Section.Booking.Main' | translate }}</p>
+            <p>{{ 'Section.Booking.Cheese' | translate }}</p>
+            <p>{{ 'Section.Booking.Dessert' | translate }}</p>
+            <div class="menu-price"><p>{{ 'Section.Booking.NormalPrice' | translate }}</p></div>
+          </div>
+          <div class="card">
+            <img class="card-arabesque" src="./assets/images/arabesque.png" alt="A decorating arabesque">
+            <p>{{ 'Section.Booking.Seafood' | translate }}</p>
+            <div class="menu-price"><p>{{ 'Section.Booking.SeafoodPrice' | translate }}</p></div>
+          </div>
+        </div>
+        <div class="reservation-delay"><p>{{ 'Section.Booking.ReservationDelay' | translate }}</p>
+        </div>
+        <hr class="rounded">
+        <div class="breakfast">
+          <h3>{{ 'Section.Booking.BreakfastTitle'| translate }}</h3>
+          <div>
+            <mat-icon>bakery_dining</mat-icon>
+            <mat-icon>coffee</mat-icon>
+            <p>{{ 'Section.Booking.Breakfast'| translate }}</p>
+            <p>{{ 'Section.Booking.BreakfastMenu'| translate }}</p>
+            <mat-icon>schedule</mat-icon>
+            <p>{{ 'Section.Booking.BreakfastTime'| translate }}</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="modalities">
+    <button
+      class="accordion-toggle"
+      (click)="toggleSection('modalities')"
+      (keydown)="handleKeydown($event, 'modalities')"
+      [attr.aria-expanded]="openedSections['modalities']"
+      [attr.aria-controls]="'content-modalities'"
+    >
+      <h2>{{ 'Section.Modalities.Title' | translate }}</h2>
+      <span class="arrow" [class.open]="openedSections['modalities']">▼</span>
+    </button>
+    <div
+      id="content-modalities"
+      class="accordion-content"
+      [class.open]="openedSections['modalities']"
+      [attr.aria-hidden]="!openedSections['modalities']"
+    >
+      <ul>
+        <li>{{ 'Section.Modalities.Times'| translate }}</li>
+        <li>{{ 'Section.Modalities.Animals'| translate }}</li>
+        <li>{{ 'Section.Modalities.Smoking'| translate }}</li>
+        <li>{{ 'Section.Modalities.Kids'| translate }}</li>
+        <li>{{ 'Section.Modalities.Wifi'| translate }}</li>
+        <li>{{ 'Section.Modalities.Parking'| translate }}</li>
 
-      </p>
+      </ul>
+
     </div>
   </section>
 
@@ -86,17 +148,16 @@
       [class.open]="openedSections['contact']"
       [attr.aria-hidden]="!openedSections['contact']"
     >
-      <div class="contact-card-container">
-        <div class="contact-card">
+      <div class="card-container">
+        <div class="card">
           <mat-icon>mail</mat-icon>
           <a href="mailto:contact@lecalme.fr"><p>{{ 'Section.Contact.Email' | translate }}</p></a>
         </div>
-        <div class="contact-card">
+        <div class="card">
           <mat-icon>phone</mat-icon>
           <a href="tel:+33768170686"><p>{{ 'Section.Contact.Phone' | translate }}</p></a>
         </div>
       </div>
-
     </div>
   </section>
 

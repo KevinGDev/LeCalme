@@ -178,15 +178,34 @@ header {
   height: 60px;
 }
 
+.menu {
+  text-align: center;
+
+  .reservation-delay {
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .menu-price {
+    font-weight: bold;
+    margin-top: 5vh;
+  }
+}
+
+
+.breakfast {
+  text-align: center;
+}
+
 // ==============================
 // CONTACT
 // ==============================
 
-.contact-card-container {
+.card-container {
   display: flex;
   justify-content: space-around;
 
-  .contact-card {
+  .card {
     text-align: center;
     margin: 2vh 0;
     padding: 2vh 2vw;
@@ -204,6 +223,10 @@ header {
       transform: scale(1.05);
     }
 
+    img {
+      width: 30%;
+      height: 30%;
+    }
   }
 }
 
@@ -273,7 +296,7 @@ header {
   flex-wrap: wrap;
 
   .activity {
-    padding: $spacing-medium;
+    padding: $spacing-large;
     border-radius: $border-radius-medium;
     margin-bottom: $spacing-large;
     margin-right: $spacing-medium;
@@ -286,6 +309,8 @@ header {
     text-overflow: ellipsis;
     flex: 0 0 15%;
     border: solid 0.1px $color-accordion-bg;
+    overflow-y: hidden;
+
 
     &:hover {
       background-color: $color-bg;
@@ -319,9 +344,10 @@ header {
     }
   }
 
-  .contact-card-container {
+  .card-container {
     flex-direction: column;
-    .contact-card {
+
+    .card {
       margin: 2vh 2vw 2vh 2vw;
       width: auto;
     }
@@ -337,4 +363,9 @@ hr.rounded {
   border-radius: 5px;
   width: 40vw;
   margin-bottom: 5vh;
+  margin-top: 5vh;
+}
+
+li{
+  margin:$spacing-small
 }

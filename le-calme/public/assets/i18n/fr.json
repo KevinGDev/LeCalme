@@ -1,11 +1,13 @@
 {
   "Language": {
     "French": "Français",
-    "English": "Anglais"
+    "English": "Anglais",
+    "German": "Allemand"
   },
   "AltText": {
     "FrenchFlag": "Drapeau français",
     "UKFlag": "Drapeau britannique",
+    "GerFlag": "Drapeau allemand",
     "Logo": "Logo Le Calme",
     "BookingLogo": "Logo de réservation Booking",
     "PresentationPic": "Présentation",
@@ -34,14 +36,36 @@
   },
   "Section": {
     "About": {
-      "Title": "A propos"
+      "Title": "À propos"
     },
     "Activities": {
       "Title": "Activités proches"
     },
     "Booking": {
-      "Title": "Réservation",
-      "Description": "Vous pouvez nous contacter par téléphone afin de réserver en direct au tarif de 80€ ou passer par notre partenaire"
+      "Title": "Réservation & tarifs",
+      "Description": "Vous pouvez nous contacter par téléphone afin de réserver en direct au tarif de 80 € ou passer par notre partenaire",
+      "MenuTitle": "Nos menus",
+      "Starter": "Entrée",
+      "Main": "Plat",
+      "Cheese": "Fromage",
+      "Dessert": "Dessert",
+      "Seafood": "Plateau de fruits de mer",
+      "NormalPrice": "25 € par personne",
+      "SeafoodPrice": "45 € par personne",
+      "ReservationDelay": "Merci de réserver votre repas au moins 48 heures à l'avance",
+      "BreakfastTitle": "Petits-déjeuners",
+      "Breakfast": "Vous aurez également la possibilité de prendre vos petits-déjeuners sur place au tarif de 13 € par personne",
+      "BreakfastMenu": "Café, thé, viennoiseries, confitures et tartines vous seront proposés",
+      "BreakfastTime": "7h30 - 10h"
+    },
+    "Modalities": {
+      "Title": "Modalités de séjour",
+      "Times": "Nous serons heureux de vous accueillir à partir de 16h, les départs quant à eux auront lieu avant 10h",
+      "Animals": "Nous n'acceptons pas les animaux",
+      "Smoking": "La chambre d'hôtes est un espace non-fumeur",
+      "Kids": "Nous n'avons malheureusement pas l'espace nécessaire pour accueillir les enfants",
+      "Wifi": "Le wifi est à votre disposition tout au long du séjour",
+      "Parking": "Nous disposons d'un parking privé afin de stationner vos véhicules et de rangement pour vos vélos"
     },
     "Contact": {
       "Title": "Contact",
@@ -51,7 +75,7 @@
     "Location": {
       "Address": "Pour venir chez nous : 1 Av. de la Vall. Dom. Carheil, 44630 Plessé",
       "Distance": {
-        "Nantes": "Nantes : environ 45 km au sud-ouest de Plessé, soit environ 40 minutes en voiture.",
+        "Nantes": "Nantes : environ 45 km au sud-est de Plessé, soit environ 40 minutes en voiture.",
         "Rennes": "Rennes : environ 120 km au nord-ouest de Plessé, soit environ 1h30 en voiture.",
         "SaintNazaire": "Saint-Nazaire : environ 55 km à l'ouest de Plessé, soit environ 45 minutes en voiture.",
         "Vannes": "Vannes : environ 115 km au nord de Plessé, soit environ 1h30 en voiture."
