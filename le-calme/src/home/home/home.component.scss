@@ -132,11 +132,9 @@ header {
 // ==============================
 
 .carousel {
-  position: relative;
   display: flex;
   align-items: center;
   justify-content: space-around;
-  gap: $spacing-medium;
   height: 50vh;
   margin: 5vh 0;
 
@@ -352,6 +350,14 @@ header {
       width: auto;
     }
   }
+
+  .carousel {
+    img {
+      width: 60vw;
+      max-height: 40vh;
+    }
+  }
+
 }
 
 // ==============================
@@ -366,6 +372,6 @@ hr.rounded {
   margin-top: 5vh;
 }
 
-li{
-  margin:$spacing-small
+li {
+  margin: $spacing-small
 }

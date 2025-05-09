@@ -28,7 +28,7 @@ export class HomeComponent {
   /** Sections ouvertes ou fermées sur la page */
   openedSections: Record<string, boolean> = {
     booking: false,
-    modalities: true,
+    modalities: false,
     activities: false,
     contact: false,
     location: false
