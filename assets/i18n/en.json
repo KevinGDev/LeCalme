@@ -1,14 +1,16 @@
 {
   "Language": {
     "French": "French",
-    "English": "English"
+    "English": "English",
+    "German": "German"
   },
   "AltText": {
     "FrenchFlag": "French flag",
     "UKFlag": "British flag",
+    "GerFlag": "German flag",
     "Logo": "Le Calme logo",
     "BookingLogo": "Booking reservation logo",
-    "PresentationPic": "Presentation image",
+    "PresentationPic": "Presentation",
     "MapTitle": "Map showing the location of Le Calme"
   },
   "Buttons": {
@@ -25,23 +27,45 @@
   },
   "LeCalme": {
     "Title": "Le Calme",
-    "Subtitle": "Guest room in Plessé",
-    "Presentation": "Nestled in the heart of the Carheil estate in Plessé, Le Calme is a guest room designed for lovers of nature, tranquility, and authenticity. Surrounded by lakes, forests, and country trails, it offers a peaceful haven perfect for both rest and exploration. Just an hour from Nantes or the Atlantic coast, our home is the ideal starting point for discovering the region: hiking, cycling, local markets, or canoeing on the Nantes-Brest canal... Here, everything invites you to slow down and breathe.",
-    "Menu": "Here, we take care of you—even at the table!\nIf you'd like to enjoy a meal on-site, that's absolutely possible. Whether a simple dinner or a more elaborate menu, we’ll prepare what suits your taste. Just let us know your wishes in advance, and we’ll take care of the rest so you can simply enjoy the moment."
+    "Subtitle": "Bed & Breakfast in Plessé",
+    "Presentation": "Nestled in the heart of the Carheil estate in Plessé, Le Calme is a bed and breakfast designed for lovers of nature, serenity, and authenticity. Surrounded by lakes, forests, and country paths, it offers a peaceful haven for rest and discovery. Just an hour from Nantes or the Atlantic coast, our house is the ideal starting point for exploring the region: hiking, cycling, local markets or canoeing on the Nantes-Brest canal... Here, everything invites you to slow down and breathe.",
+    "Menu": "Here, we take care of you—right down to the plate!\nIf you'd like to share a meal on site, it's entirely possible. Whether a simple dinner or a more gourmet menu, we prepare what delights you. Let us know your wishes in advance, and we’ll take care of everything so you can just enjoy the moment."
   },
   "NearbyActivities": {
-    "Title": "Nearby Activities"
+    "Title": "Nearby activities"
   },
   "Section": {
     "About": {
       "Title": "About"
     },
     "Activities": {
-      "Title": "Nearby Activities"
+      "Title": "Local activities"
     },
     "Booking": {
-      "Title": "Booking",
-      "Description": "You can call us directly to book for 80€, or go through our partner"
+      "Title": "Booking & pricing",
+      "Description": "You can contact us directly by phone to book at a rate of €80 or use our partner",
+      "MenuTitle": "Our menus",
+      "Starter": "Starter",
+      "Main": "Main course",
+      "Cheese": "Cheese",
+      "Dessert": "Dessert",
+      "Seafood": "Seafood platter",
+      "NormalPrice": "€25 per person",
+      "SeafoodPrice": "€45 per person",
+      "ReservationDelay": "Please reserve your meal at least 48 hours in advance",
+      "BreakfastTitle": "Breakfasts",
+      "Breakfast": "You can also enjoy breakfast on site at €13 per person",
+      "BreakfastMenu": "Coffee, tea, pastries, jams and toast will be offered",
+      "BreakfastTime": "7:30 AM – 10:00 AM"
+    },
+    "Modalities": {
+      "Title": "Stay conditions",
+      "Times": "Check-in from 4 PM, check-out before 10 AM",
+      "Animals": "We do not accept pets",
+      "Smoking": "This is a non-smoking space",
+      "Kids": "Unfortunately, we do not have the space to accommodate children",
+      "Wifi": "Wi-Fi is available throughout your stay",
+      "Parking": "Private parking and bike storage are available"
     },
     "Contact": {
       "Title": "Contact",
@@ -49,27 +73,27 @@
       "Phone": "+33 7 68 17 06 86"
     },
     "Location": {
-      "Address": "To come to us : 1 Av. de la Vall. Dom. Carheil, 44630 Plessé",
+      "Address": "To reach us: 1 Av. de la Vall. Dom. Carheil, 44630 Plessé",
       "Distance": {
-        "Nantes": "Nantes: about 45 km southwest of Plessé, or about 40 minutes by car.",
-        "Rennes": "Rennes: about 120 km northwest of Plessé, or about 1.5 hours by car.",
-        "SaintNazaire": "Saint-Nazaire: about 55 km west of Plessé, or about 45 minutes by car.",
-        "Vannes": "Vannes: about 115 km north of Plessé, or about 1.5 hours by car."
+        "Nantes": "Nantes: about 45 km southeast of Plessé, around 40 minutes by car.",
+        "Rennes": "Rennes: about 120 km northwest of Plessé, around 1h30 by car.",
+        "SaintNazaire": "Saint-Nazaire: about 55 km west of Plessé, around 45 minutes by car.",
+        "Vannes": "Vannes: about 115 km north of Plessé, around 1h30 by car."
       },
       "Title": "Find us"
     }
   },
   "Activities": {
     "NatureWalks": {
-      "Title": "Walks on the estate",
-      "Description": "Wander the peaceful trails around the Carheil estate."
+      "Title": "Walks in the estate",
+      "Description": "Explore the peaceful trails around the Carheil estate."
     },
     "LakeRecreation": {
-      "Title": "Buhel leisure center",
-      "Description": "Canoeing, treetop adventures, paddleboarding... just 10 minutes away."
+      "Title": "Buhel Leisure Centre",
+      "Description": "Canoeing, tree climbing, paddleboarding... just 10 minutes away."
     },
     "LocalCulture": {
-      "Title": "Culture & Heritage",
+      "Title": "Culture and Heritage",
       "Description": "Discover Plessé, its artisans, and its castles."
     }
   },
@@ -79,4 +103,3 @@
   "pedal_bike": "Sport",
   "SeeOnMap": "View on map"
 }
-

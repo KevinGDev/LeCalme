@@ -1,0 +1,105 @@
+{
+  "Language": {
+    "French": "Französisch",
+    "English": "Englisch",
+    "German": "Deutsch"
+  },
+  "AltText": {
+    "FrenchFlag": "Französische Flagge",
+    "UKFlag": "Britische Flagge",
+    "UKFlag": "Deutsche Flagge",
+    "Logo": "Le Calme Logo",
+    "BookingLogo": "Buchungslogo von Booking",
+    "PresentationPic": "Präsentation",
+    "MapTitle": "Standortkarte von Le Calme"
+  },
+  "Buttons": {
+    "Previous": "‹",
+    "Next": "›"
+  },
+  "Footer": {
+    "Copyright": "Alle Rechte vorbehalten.",
+    "BackToTop": "Nach oben",
+    "ContactDev": "Entwickler kontaktieren"
+  },
+  "Aria": {
+    "BookingLink": "Link zu Booking.com"
+  },
+  "LeCalme": {
+    "Title": "Le Calme",
+    "Subtitle": "Gästezimmer in Plessé",
+    "Presentation": "Im Herzen des Anwesens Carheil in Plessé gelegen, ist Le Calme ein Gästehaus für Liebhaber von Natur, Ruhe und Authentizität. Umgeben von Seen, Wäldern und Landwegen bietet es eine friedliche Oase für Erholung und Entdeckungen. Nur eine Stunde von Nantes oder der Atlantikküste entfernt, ist unser Haus der ideale Ausgangspunkt, um die Region zu erkunden: Wandern, Radfahren, lokale Märkte oder Kanufahren auf dem Nantes-Brest-Kanal... Hier lädt alles dazu ein, langsamer zu werden und durchzuatmen.",
+    "Menu": "Bei uns wird auch kulinarisch für Sie gesorgt!\nWenn Sie ein gemeinsames Essen wünschen, ist das problemlos möglich. Ob ein einfaches Abendessen oder ein raffiniertes Menü – wir bereiten gemeinsam zu, was Sie sich wünschen. Teilen Sie uns Ihre Wünsche rechtzeitig mit – wir kümmern uns um den Rest."
+  },
+  "NearbyActivities": {
+    "Title": "Aktivitäten in der Nähe"
+  },
+  "Section": {
+    "About": {
+      "Title": "Über uns"
+    },
+    "Activities": {
+      "Title": "Nahe Aktivitäten"
+    },
+    "Booking": {
+      "Title": "Buchung & Preise",
+      "Description": "Sie können uns telefonisch kontaktieren, um direkt für 80 € zu buchen, oder über unseren Partner",
+      "MenuTitle": "Unsere Menüs",
+      "Starter": "Vorspeise",
+      "Main": "Hauptgericht",
+      "Cheese": "Käse",
+      "Dessert": "Dessert",
+      "Seafood": "Meeresfrüchteplatte",
+      "NormalPrice": "25 € pro Person",
+      "SeafoodPrice": "45 € pro Person",
+      "ReservationDelay": "Bitte reservieren Sie Ihr Essen mindestens 48 Stunden im Voraus",
+      "BreakfastTitle": "Frühstück",
+      "Breakfast": "Frühstück ist ebenfalls vor Ort möglich – 13 € pro Person",
+      "BreakfastMenu": "Kaffee, Tee, Gebäck, Marmeladen und Toast werden angeboten",
+      "BreakfastTime": "7:30 – 10:00 Uhr"
+    },
+    "Modalities": {
+      "Title": "Aufenthaltsbedingungen",
+      "Times": "Anreise ab 16 Uhr, Abreise bis 10 Uhr",
+      "Animals": "Haustiere sind nicht erlaubt",
+      "Smoking": "Das Gästezimmer ist rauchfrei",
+      "Kids": "Leider haben wir nicht genug Platz für Kinder",
+      "Wifi": "WLAN steht Ihnen während des gesamten Aufenthalts zur Verfügung",
+      "Parking": "Privater Parkplatz und Fahrradunterstand vorhanden"
+    },
+    "Contact": {
+      "Title": "Kontakt",
+      "Email": "contact@lecalme.fr",
+      "Phone": "+33 7 68 17 06 86"
+    },
+    "Location": {
+      "Address": "Anreise: 1 Av. de la Vall. Dom. Carheil, 44630 Plessé",
+      "Distance": {
+        "Nantes": "Nantes: ca. 45 km südöstlich von Plessé, etwa 40 Minuten mit dem Auto.",
+        "Rennes": "Rennes: ca. 120 km nordwestlich von Plessé, etwa 1,5 Stunden mit dem Auto.",
+        "SaintNazaire": "Saint-Nazaire: ca. 55 km westlich von Plessé, etwa 45 Minuten mit dem Auto.",
+        "Vannes": "Vannes: ca. 115 km nördlich von Plessé, etwa 1,5 Stunden mit dem Auto."
+      },
+      "Title": "So finden Sie uns"
+    }
+  },
+  "Activities": {
+    "NatureWalks": {
+      "Title": "Spaziergänge im Anwesen",
+      "Description": "Entdecken Sie die ruhigen Wege rund um das Anwesen Carheil."
+    },
+    "LakeRecreation": {
+      "Title": "Freizeitzentrum Buhel",
+      "Description": "Kanu, Klettern, Paddleboard... nur 10 Minuten entfernt."
+    },
+    "LocalCulture": {
+      "Title": "Kultur und Erbe",
+      "Description": "Entdecken Sie Plessé, seine Handwerker und seine Schlösser."
+    }
+  },
+  "nature": "Natur",
+  "museum": "Kulturell",
+  "castle": "Historisch",
+  "pedal_bike": "Sport",
+  "SeeOnMap": "Auf der Karte anzeigen"
+}
