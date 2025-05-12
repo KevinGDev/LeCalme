@@ -57,14 +57,6 @@
       "link": "https://www.google.com/maps?q=Canal+de+Nantes+%C3%A0+Brest,+44770+Pless%C3%A9,+France"
     },
     {
-      "alt": "Canoë",
-      "title": "Canoë",
-      "description": "Le Canal de Nantes à Brest offre l'opportunité de faire du canoë, une activité idéale pour découvrir la région d'un autre angle tout en profitant de la nature environnante.",
-      "type": "pedal_bike",
-      "address": "Canal de Nantes à Brest, 44770 Plessé, France",
-      "link": "https://www.google.com/maps?q=Canal+de+Nantes+%C3%A0+Brest,+44770+Pless%C3%A9,+France"
-    },
-    {
       "alt": "Karting",
       "title": "Karting",
       "description": "Le circuit de karting à Blain propose une expérience de conduite excitante pour les amateurs de vitesse et de sensations fortes, avec des karts adaptés à tous les âges.",
@@ -87,14 +79,6 @@
       "type": "museum",
       "address": "Écurie de la Forêt, 44130 Blain, France",
       "link": "https://www.google.com/maps?q=%C3%89curie+de+la+For%C3%AAt,+44130+Blain,+France"
-    },
-    {
-      "alt": "Marché de Blain",
-      "title": "Marché de Blain",
-      "description": "Le marché de Blain est un endroit parfait pour découvrir les produits locaux, frais et de qualité. C'est aussi une belle occasion de s'imprégner de l'ambiance locale.",
-      "type": "museum",
-      "address": "Place du Marché, 44130 Blain, France",
-      "link": "https://www.google.com/maps?q=Place+du+March%C3%A9,+44130+Blain,+France"
     },
     {
       "alt": "Château de la Herbretais",
@@ -187,14 +171,6 @@
       "link": "https://www.google.com/maps?q=Canal+de+Nantes+%C3%A0+Brest,+44770+Pless%C3%A9,+France"
     },
     {
-      "alt": "Canoeing",
-      "title": "Canoeing",
-      "description": "The Nantes-Brest Canal offers the opportunity to go canoeing, an ideal activity to explore the area from a different perspective while enjoying the surrounding nature.",
-      "type": "pedal_bike",
-      "address": "Nantes-Brest Canal, 44770 Plessé, France",
-      "link": "https://www.google.com/maps?q=Canal+de+Nantes+%C3%A0+Brest,+44770+Pless%C3%A9,+France"
-    },
-    {
       "alt": "Karting",
       "title": "Karting",
       "description": "The karting track in Blain offers an exciting driving experience for speed and thrill enthusiasts, with karts for all ages.",
@@ -217,14 +193,6 @@
       "type": "museum",
       "address": "Forest Stables, 44130 Blain, France",
       "link": "https://www.google.com/maps?q=%C3%89curie+de+la+For%C3%AAt,+44130+Blain,+France"
-    },
-    {
-      "alt": "Blain Market",
-      "title": "Blain Market",
-      "description": "The Blain market is a great place to discover fresh, high-quality local products. It's also a lovely way to soak up the local atmosphere.",
-      "type": "museum",
-      "address": "Market Square, 44130 Blain, France",
-      "link": "https://www.google.com/maps?q=Place+du+March%C3%A9,+44130+Blain,+France"
     },
     {
       "alt": "Herbretais Castle",
@@ -317,14 +285,6 @@
       "link": "https://www.google.com/maps?q=Canal+de+Nantes+%C3%A0+Brest,+44770+Pless%C3%A9,+France"
     },
     {
-      "alt": "Kanu",
-      "title": "Kanu",
-      "description": "Der Kanal bietet die Möglichkeit zum Kanufahren – ideal, um die Umgebung aus einer anderen Perspektive zu entdecken.",
-      "type": "pedal_bike",
-      "address": "Canal de Nantes à Brest, 44770 Plessé, Frankreich",
-      "link": "https://www.google.com/maps?q=Canal+de+Nantes+%C3%A0+Brest,+44770+Pless%C3%A9,+France"
-    },
-    {
       "alt": "Kartfahren",
       "title": "Kartfahren",
       "description": "Die Kartbahn in Blain bietet Fahrspaß für alle Altersgruppen und begeistert alle, die Geschwindigkeit lieben.",
@@ -347,14 +307,6 @@
       "type": "museum",
       "address": "Écurie de la Forêt, 44130 Blain, Frankreich",
       "link": "https://www.google.com/maps?q=%C3%89curie+de+la+For%C3%AAt,+44130+Blain,+France"
-    },
-    {
-      "alt": "Markt in Blain",
-      "title": "Markt in Blain",
-      "description": "Der Markt von Blain ist ideal, um lokale, frische Produkte kennenzulernen und die regionale Atmosphäre zu genießen.",
-      "type": "museum",
-      "address": "Place du Marché, 44130 Blain, Frankreich",
-      "link": "https://www.google.com/maps?q=Place+du+March%C3%A9,+44130+Blain,+France"
     },
     {
       "alt": "Schloss Herbretais",

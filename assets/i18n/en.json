@@ -11,7 +11,7 @@
     "Logo": "Le Calme logo",
     "BookingLogo": "Booking reservation logo",
     "PresentationPic": "Presentation",
-    "MapTitle": "Map showing the location of Le Calme"
+    "MapTitle": "Location map of Le Calme guesthouse"
   },
   "Buttons": {
     "Previous": "‹",
@@ -27,60 +27,61 @@
   },
   "LeCalme": {
     "Title": "Le Calme",
-    "Subtitle": "Bed & Breakfast in Plessé",
-    "Presentation": "Nestled in the heart of the Carheil estate in Plessé, Le Calme is a bed and breakfast designed for lovers of nature, serenity, and authenticity. Surrounded by lakes, forests, and country paths, it offers a peaceful haven for rest and discovery. Just an hour from Nantes or the Atlantic coast, our house is the ideal starting point for exploring the region: hiking, cycling, local markets or canoeing on the Nantes-Brest canal... Here, everything invites you to slow down and breathe.",
-    "Menu": "Here, we take care of you—right down to the plate!\nIf you'd like to share a meal on site, it's entirely possible. Whether a simple dinner or a more gourmet menu, we prepare what delights you. Let us know your wishes in advance, and we’ll take care of everything so you can just enjoy the moment."
+    "Subtitle": "Guesthouse in Plessé",
+    "Presentation": "Nestled in the heart of the Carheil estate in Plessé, Le Calme is a guesthouse designed for lovers of nature, serenity, and authenticity. Surrounded by forests and country trails, it offers a peaceful haven for both relaxation and exploration. Less than an hour from Nantes or the Atlantic coast, our home is the ideal starting point to explore the region: hiking, cycling, local markets, or canoeing on the Nantes–Brest canal... Here, everything invites you to slow down and breathe.",
+    "Menu": "We take care of you, right down to your plate!\nIf you’d like to enjoy a meal on site, that’s absolutely possible. Whether it’s a simple dinner or a more gourmet menu, we’ll prepare together what you’re in the mood for. Just let us know in advance, and we’ll take care of everything so you can simply enjoy the moment."
   },
   "NearbyActivities": {
-    "Title": "Nearby activities"
+    "Title": "Nearby Activities"
   },
   "Section": {
     "About": {
       "Title": "About"
     },
     "Activities": {
-      "Title": "Local activities"
+      "Title": "Nearby Activities"
     },
     "Booking": {
-      "Title": "Booking & pricing",
-      "Description": "You can contact us directly by phone to book at a rate of €80 or use our partner",
-      "MenuTitle": "Our menus",
+      "Title": "Booking & Prices",
+      "DirectReservation": "Reservations can be made by calling us directly at <a href=\"tel:+330768170686\">0768170686</a>, and you can then <b>benefit from a rate of €80</b>. Payment is possible via WERO.",
+      "BookingReservation": "If you prefer, you can also book through our partner (rates may vary).",
+      "MenuTitle": "Our Menus",
       "Starter": "Starter",
-      "Main": "Main course",
+      "Main": "Main Course",
       "Cheese": "Cheese",
       "Dessert": "Dessert",
       "Seafood": "Seafood platter",
       "NormalPrice": "€25 per person",
       "SeafoodPrice": "€45 per person",
-      "ReservationDelay": "Please reserve your meal at least 48 hours in advance",
+      "ReservationDelay": "Please book your meal at least 48 hours in advance",
       "BreakfastTitle": "Breakfasts",
-      "Breakfast": "You can also enjoy breakfast on site at €13 per person",
-      "BreakfastMenu": "Coffee, tea, pastries, jams and toast will be offered",
-      "BreakfastTime": "7:30 AM – 10:00 AM"
+      "Breakfast": "You can also enjoy breakfast on site for €13 per person",
+      "BreakfastMenu": "Coffee, tea, pastries, jams, and toast will be served",
+      "BreakfastTime": "7:30 AM - 10:00 AM"
     },
     "Modalities": {
-      "Title": "Stay conditions",
-      "Times": "Check-in from 4 PM, check-out before 10 AM",
-      "Animals": "We do not accept pets",
-      "Smoking": "This is a non-smoking space",
-      "Kids": "Unfortunately, we do not have the space to accommodate children",
+      "Title": "Stay Information",
+      "Times": "We will be happy to welcome you from 4 PM, and check-out should be before 10 AM",
       "Wifi": "Wi-Fi is available throughout your stay",
-      "Parking": "Private parking and bike storage are available"
+      "Parking": "We have a private parking area for your vehicles and storage for your bikes",
+      "Animals": "We do not accept pets",
+      "Smoking": "The guesthouse is a non-smoking area",
+      "Kids": "Unfortunately, we do not have the space to accommodate children"
     },
     "Contact": {
       "Title": "Contact",
-      "Email": "contact@lecalme.fr",
+      "Email": "perreon.oliva@gmail.com",
       "Phone": "+33 7 68 17 06 86"
     },
     "Location": {
-      "Address": "To reach us: 1 Av. de la Vall. Dom. Carheil, 44630 Plessé",
+      "Address": "To visit us: 1 Av. de la Vall. Dom. Carheil, 44630 Plessé",
       "Distance": {
-        "Nantes": "Nantes: about 45 km southeast of Plessé, around 40 minutes by car.",
-        "Rennes": "Rennes: about 120 km northwest of Plessé, around 1h30 by car.",
-        "SaintNazaire": "Saint-Nazaire: about 55 km west of Plessé, around 45 minutes by car.",
-        "Vannes": "Vannes: about 115 km north of Plessé, around 1h30 by car."
+        "Nantes": "Nantes: around 50 km southeast of Plessé, about 45 minutes by car.",
+        "Rennes": "Rennes: around 90 km northwest of Plessé, about 1h15 by car.",
+        "SaintNazaire": "Saint-Nazaire: around 50 km west of Plessé, about 45 minutes by car.",
+        "Vannes": "Vannes: around 75 km west of Plessé, about 1h15 by car."
       },
-      "Title": "Find us"
+      "Title": "Find Us"
     }
   },
   "Activities": {
@@ -89,8 +90,8 @@
       "Description": "Explore the peaceful trails around the Carheil estate."
     },
     "LakeRecreation": {
-      "Title": "Buhel Leisure Centre",
-      "Description": "Canoeing, tree climbing, paddleboarding... just 10 minutes away."
+      "Title": "Buhel leisure center",
+      "Description": "Canoeing, treetop adventures, paddleboarding... just 10 minutes away."
     },
     "LocalCulture": {
       "Title": "Culture and Heritage",
@@ -101,5 +102,5 @@
   "museum": "Cultural",
   "castle": "Historical",
   "pedal_bike": "Sport",
-  "SeeOnMap": "View on map"
+  "SeeOnMap": "See on map"
 }

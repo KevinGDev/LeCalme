@@ -7,11 +7,11 @@
   "AltText": {
     "FrenchFlag": "Französische Flagge",
     "UKFlag": "Britische Flagge",
-    "UKFlag": "Deutsche Flagge",
+    "GerFlag": "Deutsche Flagge",
     "Logo": "Le Calme Logo",
     "BookingLogo": "Buchungslogo von Booking",
     "PresentationPic": "Präsentation",
-    "MapTitle": "Standortkarte von Le Calme"
+    "MapTitle": "Standortkarte der Unterkunft Le Calme"
   },
   "Buttons": {
     "Previous": "‹",
@@ -28,8 +28,8 @@
   "LeCalme": {
     "Title": "Le Calme",
     "Subtitle": "Gästezimmer in Plessé",
-    "Presentation": "Im Herzen des Anwesens Carheil in Plessé gelegen, ist Le Calme ein Gästehaus für Liebhaber von Natur, Ruhe und Authentizität. Umgeben von Seen, Wäldern und Landwegen bietet es eine friedliche Oase für Erholung und Entdeckungen. Nur eine Stunde von Nantes oder der Atlantikküste entfernt, ist unser Haus der ideale Ausgangspunkt, um die Region zu erkunden: Wandern, Radfahren, lokale Märkte oder Kanufahren auf dem Nantes-Brest-Kanal... Hier lädt alles dazu ein, langsamer zu werden und durchzuatmen.",
-    "Menu": "Bei uns wird auch kulinarisch für Sie gesorgt!\nWenn Sie ein gemeinsames Essen wünschen, ist das problemlos möglich. Ob ein einfaches Abendessen oder ein raffiniertes Menü – wir bereiten gemeinsam zu, was Sie sich wünschen. Teilen Sie uns Ihre Wünsche rechtzeitig mit – wir kümmern uns um den Rest."
+    "Presentation": "Im Herzen des Anwesens Carheil in Plessé gelegen, ist Le Calme ein Gästezimmer für Liebhaber von Natur, Ruhe und Authentizität. Umgeben von Wäldern und Landwegen bietet es eine Oase der Ruhe, ideal zum Entspannen und Entdecken. Weniger als eine Stunde von Nantes oder der Atlantikküste entfernt, ist unser Haus der perfekte Ausgangspunkt, um die Region zu erkunden: Wandern, Radfahren, lokale Märkte oder Kanufahren auf dem Nantes-Brest-Kanal... Hier lädt alles dazu ein, das Tempo zu drosseln und durchzuatmen.",
+    "Menu": "Bei uns wird für Ihr Wohl gesorgt – auch beim Essen!\nWenn Sie vor Ort essen möchten, ist das problemlos möglich. Ob einfaches Abendessen oder ein feineres Menü – wir bereiten gemeinsam zu, worauf Sie Lust haben. Sagen Sie uns einfach rechtzeitig Bescheid, und wir kümmern uns um alles, damit Sie den Moment genießen können."
   },
   "NearbyActivities": {
     "Title": "Aktivitäten in der Nähe"
@@ -39,11 +39,12 @@
       "Title": "Über uns"
     },
     "Activities": {
-      "Title": "Nahe Aktivitäten"
+      "Title": "Aktivitäten in der Nähe"
     },
     "Booking": {
       "Title": "Buchung & Preise",
-      "Description": "Sie können uns telefonisch kontaktieren, um direkt für 80 € zu buchen, oder über unseren Partner",
+      "DirectReservation": "Reservierungen sind direkt telefonisch unter <a href=\"tel:+330768170686\">0768170686</a> möglich – so <b>profitieren Sie von einem Preis von 80 €</b>. Die Zahlung ist über WERO möglich.",
+      "BookingReservation": "Alternativ können Sie auch über unseren Partner buchen (Preise können variieren).",
       "MenuTitle": "Unsere Menüs",
       "Starter": "Vorspeise",
       "Main": "Hauptgericht",
@@ -54,52 +55,52 @@
       "SeafoodPrice": "45 € pro Person",
       "ReservationDelay": "Bitte reservieren Sie Ihr Essen mindestens 48 Stunden im Voraus",
       "BreakfastTitle": "Frühstück",
-      "Breakfast": "Frühstück ist ebenfalls vor Ort möglich – 13 € pro Person",
-      "BreakfastMenu": "Kaffee, Tee, Gebäck, Marmeladen und Toast werden angeboten",
+      "Breakfast": "Frühstück ist ebenfalls vor Ort für 13 € pro Person erhältlich",
+      "BreakfastMenu": "Kaffee, Tee, Gebäck, Marmeladen und Toast werden serviert",
       "BreakfastTime": "7:30 – 10:00 Uhr"
     },
     "Modalities": {
       "Title": "Aufenthaltsbedingungen",
-      "Times": "Anreise ab 16 Uhr, Abreise bis 10 Uhr",
+      "Times": "Check-in ist ab 16 Uhr möglich, Check-out bitte bis 10 Uhr",
+      "Wifi": "WLAN steht Ihnen während Ihres gesamten Aufenthalts zur Verfügung",
+      "Parking": "Wir bieten Privatparkplätze und eine Abstellmöglichkeit für Fahrräder",
       "Animals": "Haustiere sind nicht erlaubt",
-      "Smoking": "Das Gästezimmer ist rauchfrei",
-      "Kids": "Leider haben wir nicht genug Platz für Kinder",
-      "Wifi": "WLAN steht Ihnen während des gesamten Aufenthalts zur Verfügung",
-      "Parking": "Privater Parkplatz und Fahrradunterstand vorhanden"
+      "Smoking": "Das Gästehaus ist eine Nichtraucherzone",
+      "Kids": "Leider haben wir nicht genügend Platz, um Kinder unterzubringen"
     },
     "Contact": {
       "Title": "Kontakt",
-      "Email": "contact@lecalme.fr",
+      "Email": "perreon.oliva@gmail.com",
       "Phone": "+33 7 68 17 06 86"
     },
     "Location": {
-      "Address": "Anreise: 1 Av. de la Vall. Dom. Carheil, 44630 Plessé",
+      "Address": "So finden Sie uns: 1 Av. de la Vall. Dom. Carheil, 44630 Plessé",
       "Distance": {
-        "Nantes": "Nantes: ca. 45 km südöstlich von Plessé, etwa 40 Minuten mit dem Auto.",
-        "Rennes": "Rennes: ca. 120 km nordwestlich von Plessé, etwa 1,5 Stunden mit dem Auto.",
+        "Nantes": "Nantes: ca. 45 km südöstlich von Plessé, etwa 45 Minuten mit dem Auto.",
+        "Rennes": "Rennes: ca. 120 km nordwestlich von Plessé, etwa 1 Std. 15 Min. mit dem Auto.",
         "SaintNazaire": "Saint-Nazaire: ca. 55 km westlich von Plessé, etwa 45 Minuten mit dem Auto.",
-        "Vannes": "Vannes: ca. 115 km nördlich von Plessé, etwa 1,5 Stunden mit dem Auto."
+        "Vannes": "Vannes: ca. 115 km nördlich von Plessé, etwa 1 Std. 15 Min. mit dem Auto."
       },
-      "Title": "So finden Sie uns"
+      "Title": "Anreise"
     }
   },
   "Activities": {
     "NatureWalks": {
-      "Title": "Spaziergänge im Anwesen",
+      "Title": "Spaziergänge auf dem Anwesen",
       "Description": "Entdecken Sie die ruhigen Wege rund um das Anwesen Carheil."
     },
     "LakeRecreation": {
-      "Title": "Freizeitzentrum Buhel",
-      "Description": "Kanu, Klettern, Paddleboard... nur 10 Minuten entfernt."
+      "Title": "Freizeitpark Buhel",
+      "Description": "Kanufahren, Klettern im Hochseilgarten, Paddleboard – nur 10 Minuten entfernt."
     },
     "LocalCulture": {
-      "Title": "Kultur und Erbe",
-      "Description": "Entdecken Sie Plessé, seine Handwerker und seine Schlösser."
+      "Title": "Kultur & Erbe",
+      "Description": "Entdecken Sie Plessé, seine Handwerker und Schlösser."
     }
   },
   "nature": "Natur",
   "museum": "Kulturell",
   "castle": "Historisch",
-  "pedal_bike": "Sport",
-  "SeeOnMap": "Auf der Karte anzeigen"
+  "pedal_bike": "Sportlich",
+  "SeeOnMap": "Auf der Karte ansehen"
 }
