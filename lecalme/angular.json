@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "le-calme": {
+    "lecalme": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/le-calme",
+            "outputPath": "dist/lecalme",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -69,10 +69,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "le-calme:build:production"
+              "buildTarget": "lecalme:build:production"
             },
             "development": {
-              "buildTarget": "le-calme:build:development"
+              "buildTarget": "lecalme:build:development"
             }
           },
           "defaultConfiguration": "development"

@@ -28,7 +28,7 @@
   "LeCalme": {
     "Title": "Le Calme",
     "Subtitle": "Chambre d’hôtes à Plessé",
-    "Presentation": "Nichée au cœur du domaine de Carheil, à Plessé, Le Calme est une chambre d’hôtes pensée pour les amoureux de nature, de sérénité et d’authenticité. Entourée de lacs, de forêts et de chemins de campagne, elle offre un havre de paix propice au repos comme à la découverte. À seulement une heure de Nantes ou de la côte atlantique, notre maison est le point de départ idéal pour explorer la région : randonnées, balades à vélo, marchés locaux ou canoë sur le canal de Nantes à Brest... Ici, tout invite à ralentir et à respirer.",
+    "Presentation": "Nichée au cœur du domaine de Carheil, à Plessé, Le Calme est une chambre d’hôtes pensée pour les amoureux de nature, de sérénité et d’authenticité. Entourée de forêts et de chemins de campagne, elle offre un havre de paix propice au repos comme à la découverte. À moins d'une heure de Nantes ou de la côte atlantique, notre maison est le point de départ idéal pour explorer la région : randonnées, balades à vélo, marchés locaux ou canoë sur le canal de Nantes à Brest... Ici, tout invite à ralentir et à respirer.",
     "Menu": "Ici, on prend soin de vous jusque dans l’assiette !\nSi vous souhaitez partager un repas sur place, c’est tout à fait possible. Que ce soit un dîner simple ou un menu plus gourmand, nous préparons ensemble ce qui vous fait plaisir. Faites-nous part de vos envies à l’avance, et nous nous occupons de tout pour que vous n’ayez plus qu’à savourer l’instant."
   },
   "NearbyActivities": {
@@ -61,11 +61,11 @@
     "Modalities": {
       "Title": "Modalités de séjour",
       "Times": "Nous serons heureux de vous accueillir à partir de 16h, les départs quant à eux auront lieu avant 10h",
+      "Wifi": "Le wifi est à votre disposition tout au long du séjour",
+      "Parking": "Nous disposons d'un parking privé afin de stationner vos véhicules et de rangement pour vos vélos",
       "Animals": "Nous n'acceptons pas les animaux",
       "Smoking": "La chambre d'hôtes est un espace non-fumeur",
-      "Kids": "Nous n'avons malheureusement pas l'espace nécessaire pour accueillir les enfants",
-      "Wifi": "Le wifi est à votre disposition tout au long du séjour",
-      "Parking": "Nous disposons d'un parking privé afin de stationner vos véhicules et de rangement pour vos vélos"
+      "Kids": "Nous n'avons malheureusement pas l'espace nécessaire pour accueillir les enfants"
     },
     "Contact": {
       "Title": "Contact",
@@ -75,10 +75,10 @@
     "Location": {
       "Address": "Pour venir chez nous : 1 Av. de la Vall. Dom. Carheil, 44630 Plessé",
       "Distance": {
-        "Nantes": "Nantes : environ 45 km au sud-est de Plessé, soit environ 40 minutes en voiture.",
-        "Rennes": "Rennes : environ 120 km au nord-ouest de Plessé, soit environ 1h30 en voiture.",
+        "Nantes": "Nantes : environ 45 km au sud-est de Plessé, soit environ 45 minutes en voiture.",
+        "Rennes": "Rennes : environ 120 km au nord-ouest de Plessé, soit environ 1h15 en voiture.",
         "SaintNazaire": "Saint-Nazaire : environ 55 km à l'ouest de Plessé, soit environ 45 minutes en voiture.",
-        "Vannes": "Vannes : environ 115 km au nord de Plessé, soit environ 1h30 en voiture."
+        "Vannes": "Vannes : environ 115 km au nord de Plessé, soit environ 1h15 en voiture."
       },
       "Title": "Nous trouver"
     }
