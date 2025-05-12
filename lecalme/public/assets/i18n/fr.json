@@ -43,7 +43,8 @@
     },
     "Booking": {
       "Title": "Réservation & tarifs",
-      "Description": "Vous pouvez nous contacter par téléphone afin de réserver en direct au tarif de 80 € ou passer par notre partenaire",
+      "DirectReservation": "Les réservations sont possible en nous contactant directement par téléphone au <a href=\"tel:+330768170686\">0768170686</a>, vous pourrez alors <b>bénéficier d'un tarif de 80€</b>. Le paiement est possible par WERO.",
+      "BookingReservation": "Si vous le souhaitez vous pouvez également passer par notre partenaire (les tarifs peuvent varier)",
       "MenuTitle": "Nos menus",
       "Starter": "Entrée",
       "Main": "Plat",

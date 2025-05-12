@@ -43,7 +43,8 @@
     },
     "Booking": {
       "Title": "Booking & Prices",
-      "Description": "You can contact us by phone to book directly at the rate of €80 or go through our partner",
+      "DirectReservation": "Reservations can be made by calling us directly at <a href=\"tel:+330768170686\">0768170686</a>, and you can then <b>benefit from a rate of €80</b>. Payment is possible via WERO.",
+      "BookingReservation": "If you prefer, you can also book through our partner (rates may vary).",
       "MenuTitle": "Our Menus",
       "Starter": "Starter",
       "Main": "Main Course",

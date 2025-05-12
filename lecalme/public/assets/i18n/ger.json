@@ -43,7 +43,8 @@
     },
     "Booking": {
       "Title": "Buchung & Preise",
-      "Description": "Sie können uns telefonisch kontaktieren, um direkt zum Preis von 80 € zu buchen oder über unseren Partner",
+      "DirectReservation": "Reservierungen sind direkt telefonisch unter <a href=\"tel:+330768170686\">0768170686</a> möglich – so <b>profitieren Sie von einem Preis von 80 €</b>. Die Zahlung ist über WERO möglich.",
+      "BookingReservation": "Alternativ können Sie auch über unseren Partner buchen (Preise können variieren).",
       "MenuTitle": "Unsere Menüs",
       "Starter": "Vorspeise",
       "Main": "Hauptgericht",

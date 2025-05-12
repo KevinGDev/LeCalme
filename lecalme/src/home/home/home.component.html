@@ -58,15 +58,15 @@
       [class.open]="openedSections['booking']"
       [attr.aria-hidden]="!openedSections['booking']"
     >
-      <p>
-        {{ 'Section.Booking.Description' | translate }}
-        <a
-          href="https://www.booking.com/hotel/fr/lecalme-plesse.fr.html"
-          [attr.aria-label]="'Aria.BookingLink' | translate"
-          target="_blank"
-        >
-          <img class="booking-logo" src="./assets/images/booking.png" alt="{{ 'AltText.BookingLogo' | translate }}">
-        </a>
+      <p [innerHTML]="'Section.Booking.DirectReservation' | translate"></p>
+      <p> {{ "Section.Booking.BookingReservation" | translate }}  <a
+        href="https://www.booking.com/hotel/fr/lecalme-plesse.fr.html"
+        [attr.aria-label]="'Aria.BookingLink' | translate"
+        target="_blank"
+      >
+        <img class="booking-logo" src="./assets/images/booking.png" alt="{{ 'AltText.BookingLogo' | translate }}">
+      </a></p>
+
       <hr class="rounded">
       <div class="menu">
         <h3>{{ 'Section.Booking.MenuTitle'| translate }}</h3>
