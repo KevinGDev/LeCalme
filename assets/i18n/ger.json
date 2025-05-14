@@ -76,10 +76,10 @@
     "Location": {
       "Address": "So finden Sie uns: 1 Av. de la Vall. Dom. Carheil, 44630 Plessé",
       "Distance": {
-        "Nantes": "Nantes: ca. 45 km südöstlich von Plessé, etwa 45 Minuten mit dem Auto.",
-        "Rennes": "Rennes: ca. 120 km nordwestlich von Plessé, etwa 1 Std. 15 Min. mit dem Auto.",
-        "SaintNazaire": "Saint-Nazaire: ca. 55 km westlich von Plessé, etwa 45 Minuten mit dem Auto.",
-        "Vannes": "Vannes: ca. 115 km nördlich von Plessé, etwa 1 Std. 15 Min. mit dem Auto."
+        "Nantes": "Nantes: etwa 45 km südöstlich von Plessé, ca. 45 Minuten mit dem Auto.",
+        "Rennes": "Rennes: etwa 85 km nordwestlich von Plessé, ca. 1 Stunde und 15 Minuten mit dem Auto.",
+        "SaintNazaire": "Saint-Nazaire: etwa 55 km südöstlich von Plessé, ca. 45 Minuten mit dem Auto.",
+        "Vannes": "Vannes: etwa 75 km westlich von Plessé, ca. 1 Stunde mit dem Auto."
       },
       "Title": "Anreise"
     }
