@@ -1,3 +1,15 @@
 [build]
-  command = "npm install -g @angular/cli && npm install && ng build --configuration production"
-  publish = "/dist"
+  command = "npm install && npm run build -- --configuration production"
+  publish = "dist"
+
+[[redirects]]
+  from = "/sitemap.xml"
+  to = "/sitemap.xml"
+  status = 200
+  force = true
+
+# Catch-all rule for Angular routes
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

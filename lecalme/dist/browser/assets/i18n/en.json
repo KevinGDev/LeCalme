@@ -1,0 +1,106 @@
+{
+  "Language": {
+    "French": "French",
+    "English": "English",
+    "German": "German"
+  },
+  "AltText": {
+    "FrenchFlag": "French flag",
+    "UKFlag": "British flag",
+    "GerFlag": "German flag",
+    "Logo": "Le Calme logo",
+    "BookingLogo": "Booking reservation logo",
+    "PresentationPic": "Presentation",
+    "MapTitle": "Location map of Le Calme guesthouse"
+  },
+  "Buttons": {
+    "Previous": "‹",
+    "Next": "›"
+  },
+  "Footer": {
+    "Copyright": "All rights reserved.",
+    "BackToTop": "Back to top",
+    "ContactDev": "Contact the developer"
+  },
+  "Aria": {
+    "BookingLink": "Link to Booking.com"
+  },
+  "LeCalme": {
+    "Title": "Le Calme",
+    "Subtitle": "Guesthouse in Plessé",
+    "Presentation": "Nestled in the heart of the Carheil estate in Plessé, Le Calme is a guesthouse designed for lovers of nature, serenity, and authenticity. Surrounded by forests and country trails, it offers a peaceful haven for both relaxation and exploration. Less than an hour from Nantes or the Atlantic coast, our home is the ideal starting point to explore the region: hiking, cycling, local markets, or canoeing on the Nantes–Brest canal... Here, everything invites you to slow down and breathe.",
+    "Menu": "We take care of you, right down to your plate!\nIf you’d like to enjoy a meal on site, that’s absolutely possible. Whether it’s a simple dinner or a more gourmet menu, we’ll prepare together what you’re in the mood for. Just let us know in advance, and we’ll take care of everything so you can simply enjoy the moment."
+  },
+  "NearbyActivities": {
+    "Title": "Nearby Activities"
+  },
+  "Section": {
+    "About": {
+      "Title": "About"
+    },
+    "Activities": {
+      "Title": "Nearby Activities"
+    },
+    "Booking": {
+      "Title": "Booking & Prices",
+      "DirectReservation": "Reservations are possible by contacting us directly by phone at <a href=\"tel:+330768170686\">0768170686</a>, you will then <b>benefit from a rate of €80</b>. Payment is possible via WERO or by credit card.",
+      "BookingReservation": "If you prefer, you can also book through our partner (rates may vary).",
+      "MenuTitle": "Our Menus",
+      "Starter": "Starter",
+      "Main": "Main Course",
+      "Cheese": "Cheese",
+      "Dessert": "Dessert",
+      "Seafood": "Seafood platter",
+      "NormalPrice": "€25 per person",
+      "SeafoodPrice": "€45 per person",
+      "ReservationDelay": "Please book your meal at least 48 hours in advance",
+      "BreakfastTitle": "Breakfasts",
+      "Breakfast": "You can also enjoy breakfast on site for €13 per person",
+      "BreakfastMenu": "Coffee, tea, pastries, jams, and toast will be served",
+      "BreakfastTime": "7:30 AM - 10:00 AM"
+    },
+    "Modalities": {
+      "Title": "Stay Information",
+      "Times": "We will be happy to welcome you from 4 PM, and check-out should be before 10 AM",
+      "Wifi": "Wi-Fi is available throughout your stay",
+      "Parking": "We have a private parking area for your vehicles and storage for your bikes",
+      "Animals": "We do not accept pets",
+      "Smoking": "The guesthouse is a non-smoking area",
+      "Kids": "Unfortunately, we do not have the space to accommodate children"
+    },
+    "Contact": {
+      "Title": "Contact",
+      "Email": "perreon.oliva@gmail.com",
+      "Phone": "+33 7 68 17 06 86"
+    },
+    "Location": {
+      "Address": "To visit us: 1 Av. de la Vall. Dom. Carheil, 44630 Plessé",
+      "Distance": {
+        "Nantes": "Nantes: approximately 45 km southeast of Plessé, about 45 minutes by car.",
+        "Rennes": "Rennes: approximately 85 km northwest of Plessé, about 1 hour and 15 minutes by car.",
+        "SaintNazaire": "Saint-Nazaire: approximately 55 km southeast of Plessé, about 45 minutes by car.",
+        "Vannes": "Vannes: approximately 75 km west of Plessé, about 1 hour by car."
+      },
+      "Title": "Find Us"
+    }
+  },
+  "Activities": {
+    "NatureWalks": {
+      "Title": "Walks in the estate",
+      "Description": "Explore the peaceful trails around the Carheil estate."
+    },
+    "LakeRecreation": {
+      "Title": "Buhel leisure center",
+      "Description": "Canoeing, treetop adventures, paddleboarding... just 10 minutes away."
+    },
+    "LocalCulture": {
+      "Title": "Culture and Heritage",
+      "Description": "Discover Plessé, its artisans, and its castles."
+    }
+  },
+  "nature": "Nature",
+  "museum": "Cultural",
+  "castle": "Historical",
+  "pedal_bike": "Sport",
+  "SeeOnMap": "See on map"
+}

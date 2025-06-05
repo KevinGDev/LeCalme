@@ -3,6 +3,7 @@ import {TranslateModule, TranslateService} from '@ngx-translate/core';
 import {KeyValuePipe, NgFor} from '@angular/common';
 import {HttpClient} from '@angular/common/http';
 import {MatIcon} from '@angular/material/icon';
+import {Title} from '@angular/platform-browser';
 
 /**
  * Interface décrivant la structure d'une activité.
@@ -80,7 +81,8 @@ export class HomeComponent {
    */
   constructor(
     private readonly translate: TranslateService,
-    private readonly http: HttpClient
+    private readonly http: HttpClient,
+    private titleService: Title
   ) {
     this.translate.addLangs(['fr', 'en']);
     this.translate.setDefaultLang('fr');
@@ -88,8 +90,29 @@ export class HomeComponent {
     const browserLang = translate.getBrowserLang();
     this.currentLang = browserLang?.match(/fr|en/) ? browserLang : 'fr';
     this.translate.use(this.currentLang);
+    this.setPageTitle();
 
     this.loadActivities();
+  }
+
+  private setPageTitle(): void {
+    let title: string;
+
+    switch (this.currentLang) {
+      case 'fr':
+        title = 'Le Calme - Chambre d’hôtes à Plessé en Loire-Atlantique';
+        break;
+      case 'ger':
+        title = 'Le Calme - Gästehaus in Plessé, Loire-Atlantique';
+        break;
+      case 'en':
+        title = 'Le Calme - Guesthouse in Plessé, Loire-Atlantique';
+        break;
+      default:
+        title = 'Le Calme - Chambre d’hôtes à Plessé en Loire-Atlantique';
+    }
+
+    this.titleService.setTitle(title);
   }
 
   /**
@@ -137,6 +160,7 @@ export class HomeComponent {
   switchLanguage(lang: string): void {
     this.translate.use(lang);
     this.currentLang = lang;
+    this.setPageTitle();
     this.loadActivities();
   }
 
