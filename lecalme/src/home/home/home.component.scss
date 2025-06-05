@@ -73,6 +73,7 @@ header {
   align-items: center;
   transition: background-color 0.3s;
   text-align: left;
+  background-color: $color-accordion-bg;
 
   &:hover {
     background-color: $color-accordion-hover;
@@ -215,9 +216,10 @@ header {
     transition-duration: 0.4s;
     text-overflow: ellipsis;
     border: solid 0.1px $color-accordion-bg;
+    background-color: $color-accordion-bg;
 
     &:hover {
-      background-color: $color-bg;
+      background-color: $color-accordion-hover;
       transform: scale(1.05);
     }
 
@@ -261,7 +263,7 @@ header {
 // ==============================
 
 .site-footer {
-  background-color: #f5f5f5;
+  background-color: $color-bg;
   padding: 1rem;
   text-align: center;
   font-size: 0.9rem;

@@ -1,16 +1,16 @@
 // Variables
 $font-family: 'Quicksand', sans-serif;
+$color-bg: #ffffff;              // Fond rosé très pâle – doux mais perceptible
+$color-text: #2b1f1f;            // Texte foncé brun-rosé – bon contraste et chaleur
+$color-heading: #1a0f0f;         // Titres – encore plus foncé pour structure visuelle
+$color-link: #a05a68;            // Vieux rose soutenu – visible sans être criard
+$color-link-hover: #7c3f4c;      // Vieux rose foncé – bon effet au survol
+$color-accent: #c97d8a;          // Rose plus vibrant – pour boutons ou éléments marquants
+$color-accordion-bg: #f0d8dc;    // Rose clair désaturé – pour les fonds secondaires
+$color-accordion-hover: #e2bfc6; // Rose plus marqué – effet subtil au survol
+$color-icon: #7a6b6b;            // Icônes – gris brun-rosé
+$color-icon-hover: #3a2e2e;      // Icônes au hover – plus sombre pour contraste
 
-$color-bg: #ede5f9;                // Fond très clair
-$color-text: #6a6a6a;              // Gris doux pour le texte
-$color-heading: #4a4a4a;           // Gris un peu plus soutenu pour les titres
-$color-link: #8a8a8a;              // Gris clair pour les liens
-$color-link-hover: #5a5a5a;        // Hover lien un peu plus foncé
-$color-accent: #ede5f9;            // Lavande pastel pour les accents
-$color-accordion-bg: #e7e2f3;      // Fond accordéon lavande clair
-$color-accordion-hover: #d9d2e8;   // Hover accordéon lavande un peu plus foncé
-$color-icon: #aaa;                 // Icônes gris clair
-$color-icon-hover: #666;           // Icônes en survol, gris moyen
 
 
 $border-radius-small: 0.5rem;
@@ -22,4 +22,4 @@ $spacing-medium: 1rem;
 $spacing-large: 2rem;
 $spacing-xl: 3rem;
 
-$font-size-large : 1.5rem;
+$font-size-large: 1.5rem;
