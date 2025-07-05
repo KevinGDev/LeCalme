@@ -43,7 +43,7 @@
     },
     "Booking": {
       "Title": "Buchung & Preise",
-      "DirectReservation": "Reservierungen sind möglich, indem Sie uns direkt telefonisch unter <a href=\"tel:+330768170686\">0768170686</a> kontaktieren. Sie <b>profitieren dann von einem Tarif von 80€</b>. Die Zahlung ist per WERO oder Kreditkarte möglich.",
+      "DirectReservation": "Reservierungen sind möglich, indem Sie uns direkt telefonisch unter <a href=\"tel:+330768170686\">0768170686</a> kontaktieren. Sie <b>profitieren dann von einem Tarif von 80€</b>. Die Zahlung ist per WERO, <a target=\"blank\" href=\"https://www.paypal.com\">Paypal</a> oder Kreditkarte möglich.",
       "BookingReservation": "Alternativ können Sie auch über unseren Partner buchen (Preise können variieren).",
       "MenuTitle": "Unsere Menüs",
       "Starter": "Vorspeise",

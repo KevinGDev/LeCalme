@@ -4,6 +4,8 @@ import {KeyValuePipe, NgFor} from '@angular/common';
 import {HttpClient} from '@angular/common/http';
 import {MatIcon} from '@angular/material/icon';
 import {Title} from '@angular/platform-browser';
+import emailjs from '@emailjs/browser';
+import {FormsModule} from '@angular/forms';
 
 /**
  * Interface décrivant la structure d'une activité.
@@ -21,7 +23,7 @@ interface Activity {
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [TranslateModule, NgFor, KeyValuePipe, MatIcon],
+  imports: [TranslateModule, NgFor, KeyValuePipe, MatIcon, FormsModule],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss'
 })
@@ -184,4 +186,22 @@ export class HomeComponent {
       this.toggleSection(section);
     }
   }
+
+  public sendEmail(e: Event) {
+    e.preventDefault();
+
+    emailjs
+      .sendForm('service_0jtqgzm', 'template_y2xugoitemplate_y2xugoi', e.target as HTMLFormElement, {
+        publicKey: '-T1RAve_zHnkqs7xIi-',
+      })
+      .then(
+        () => {
+          console.log('SUCCESS!');
+        },
+        (error) => {
+          console.log('FAILED...');
+        },
+      );
+  }
+
 }

@@ -149,10 +149,16 @@
       [attr.aria-hidden]="!openedSections['contact']"
     >
       <div class="card-container">
-        <div class="card">
-          <mat-icon>mail</mat-icon>
-          <a href="mailto:perreon.oliva@gmail.com"><p>{{ 'Section.Contact.Email' | translate }}</p></a>
-        </div>
+        <form class="contact-form" (submit)="sendEmail($event)">
+          <label>Name</label>
+          <input type="text" name="user_name">
+          <label>Email</label>
+          <input type="email" name="user_email">
+          <label>Message</label>
+          <textarea name="message"></textarea>
+          <input type="submit" value="Send">
+        </form>
+
         <div class="card">
           <mat-icon>phone</mat-icon>
           <a href="tel:+33768170686"><p>{{ 'Section.Contact.Phone' | translate }}</p></a>

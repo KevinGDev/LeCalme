@@ -43,7 +43,7 @@
     },
     "Booking": {
       "Title": "Booking & Prices",
-      "DirectReservation": "Reservations are possible by contacting us directly by phone at <a href=\"tel:+330768170686\">0768170686</a>, you will then <b>benefit from a rate of €80</b>. Payment is possible via WERO or by credit card.",
+      "DirectReservation": "Reservations are possible by contacting us directly by phone at <a href=\"tel:+330768170686\">0768170686</a>, you will then <b>benefit from a rate of €80</b>. Payment is possible via WERO, <a target=\"blank\" href=\"https://www.paypal.com\">Paypal</a> or by credit card.",
       "BookingReservation": "If you prefer, you can also book through our partner (rates may vary).",
       "MenuTitle": "Our Menus",
       "Starter": "Starter",
