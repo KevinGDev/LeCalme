@@ -1,6 +1,5 @@
 import {Component} from '@angular/core';
 import {TranslateModule, TranslateService} from '@ngx-translate/core';
-import {KeyValuePipe, NgFor} from '@angular/common';
 import {HttpClient} from '@angular/common/http';
 import {MatIcon} from '@angular/material/icon';
 import {Title} from '@angular/platform-browser';
@@ -23,7 +22,7 @@ interface Activity {
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [TranslateModule, NgFor, KeyValuePipe, MatIcon, FormsModule],
+  imports: [TranslateModule, MatIcon, FormsModule],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss'
 })
@@ -69,6 +68,21 @@ export class HomeComponent {
     'assets/images/lecalme12.jpg',
     'assets/images/lecalme13.jpg',
     'assets/images/lecalme14.jpg',
+    'assets/images/lecalme23.jpg',
+    'assets/images/lecalme24.jpg',
+    'assets/images/lecalme25.jpg',
+    'assets/images/lecalme26.jpg',
+    'assets/images/lecalme27.jpg',
+    'assets/images/lecalme28.jpg',
+    'assets/images/lecalme29.jpg',
+    'assets/images/lecalme30.jpg',
+    'assets/images/lecalme31.jpg',
+    'assets/images/lecalme32.jpg',
+    'assets/images/lecalme33.jpg',
+    'assets/images/lecalme34.jpg',
+    'assets/images/lecalme35.jpg',
+    'assets/images/lecalme36.jpg',
+    'assets/images/lecalme37.jpg',
   ];
 
   /** Index de l'image actuellement affichée */
@@ -198,7 +212,7 @@ export class HomeComponent {
         () => {
           console.log('SUCCESS!');
         },
-        (error) => {
+        () => {
           console.log('FAILED...');
         },
       );
